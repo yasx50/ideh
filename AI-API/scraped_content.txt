@@ -1,61 +1,1291 @@
-ScraperAI
-ScraperAI
-0.0.2
-Introduction
-Getting Started
-Main Components
-LLMs
-Crawler
-ParserAI
-Scraper
-CLI
-CLI Application
-Examples
-Examples
-ScraperAI
-Introduction
-Edit on GitHub
-ScraperAI
-⚡ Scraping has never been easier ⚡
-ScraperAI is an open-source, AI-powered tool designed to simplify web scraping for users of all skill levels. 
-By leveraging Large Language Models, such as ChatGPT, ScraperAI extracts data from web pages and generates 
-reusable and shareable scraping configs.
-Forget about manually extracting selectors from HTML pages using Developer Consoles. ScraperAI handles this process for you.
-Features
-Serializable & reusable Scraper Configs
-Automatic data detection
-Automatic XPATHs detection
-Automatic pagination & page type detection
-HTML minification
-ChatGPT support
-Custom LLMs support
-Selenium support
-Custom crawlers support
-How does ScraperAI work?
-ScraperAI employs AI models to analyze web pages and generate scraping tasks. 
-These tasks are then utilized to collect data from websites in structured formats such as JSON, CSV, and others.
-Who should use ScraperAI?
-ScraperAI is designed for scientists, analysts, entrepreneurs, and SEO specialists seeking to effortlessly scrape data from the web in a no-code manner. 
-It is particularly useful for those unfamiliar with various scraping techniques or looking to save time and effort when collecting the data.
-How to get started with ScraperAI?
-To get started with ScraperAI, you first need to install it. You can do this by running the following command:
-pip install scraperai
-Once you have installed ScraperAI, you can start using a CLI application by calling
-scraperai --url https://www.ycombinator.com/companies
-command in your console.
-Demo
-We put some examples of scraper usage
-here
+Python Web Scraping Tutorial - GeeksforGeeks
+Skip to content
+Courses
+DSA to Development
+For Working Professionals
+Data Structure & Algorithm Classes (Live)
+System Design (Live)
+JAVA Backend Development(Live)
+DevOps(Live)
+Data Structures & Algorithms in Python
+For Students
+Interview Preparation Course
+GATE CS & IT 2024
+Data Science (Live)
+Data Structure & Algorithm-Self Paced(C++/JAVA)
+Master Competitive Programming(Live)
+Full Stack Development with React & Node JS(Live)
+All Courses
+Full Stack Development
+Data Science Program
+Tutorials
+Python Tutorial
+Taking Input in Python
+Python Operators
+Python Variables
+Data Types
+Loops in Python
+Python Functions
+Python OOPS Concept
+DSA in Python
+Python Exercises
+Web Development in Python
+Django
+Flask
+Postman
+Web Scrapping in Python
+Data Structures & Algorithms
+Data Structures
+Arrays
+Matrix
+Strings
+Linked List
+Stack
+Queue
+Binary Tree
+Binary Search Tree
+Heap
+Hashing
+Graph
+Advanced Data Structure
+Algorithms
+Analysis of Algorithms
+Searching Algorithms
+Sorting Algorithms
+Greedy Algorithms
+Dynamic Programming
+Graph Algorithms
+Recursion
+Backtracking
+Divide and Conquer
+Mathematical Algorithms
+Geometric Algorithms
+Bitwise Algorithms
+Randomized Algorithms
+Complete DSA Tutorial
+Company Wise SDE Sheets
+Facebook SDE Sheet
+Amazon SDE Sheet
+Apple SDE Sheet
+Netflix SDE Sheet
+Google SDE Sheet
+Wipro Coding Sheet
+Infosys Coding Sheet
+TCS Coding Sheet
+Cognizant Coding Sheet
+HCL Coding Sheet
+Competitive Programming
+DSA Cheat Sheets
+Top 75 DSA Questions
+Blind 75
+DSA Sheet for Beginners
+SDE Sheets
+FAANG Coding Sheet
+Love Babbar Sheet
+Mass Recruiter Sheet
+Product-Based Coding Sheet
+Competitive Programming
+System Design
+System Design Tutorial
+Software Design Patterns
+System Design Roadmap
+Top 10 System Design Interview Questions
+Interview Corner
+Company Preparation
+Top Topics
+Practice Company Questions
+Interview Experiences
+Experienced Interviews
+Internship Interviews
+Competitive Programming
+Multiple Choice Quizzes
+Aptitude for Placements
+Puzzles for Interviews
+Languages
+Java
+C++
+R Tutorial
+C
+C#
+SQL
+Perl
+Go Language
+Web Development
+HTML
+CSS
+JavaScript
+TypeScript
+ReactJS
+NextJS
+Node.js
+PHP
+100 Days of Web Development
+CS Subjects
+Engineering Mathematics
+Operating System
+DBMS
+Computer Networks
+Computer Organization and Architecture
+Theory of Computation
+Compiler Design
+Digital Logic
+Software Engineering
+DevOps And Linux
+DevOps Tutorial
+GIT
+AWS
+Kubernetes
+Docker
+Microsoft Azure Tutorial
+Google Cloud Platform
+DevOps Roadmap
+DevOps Interview Questions
+Linux
+School Learning
+Mathematics
+Class 8 Study Material
+Class 9 Study Material
+Class 10 Study Material
+Class 11 Study Material
+Class 12 Study Material
+English Grammar
+GfG School
+Commerce
+GATE
+GATE Computer Science Notes
+Last Minute Notes
+GATE CS Solved Papers
+GATE CS Original Papers and Official Keys
+GATE CS 2025 Syllabus
+GATE DA 2025 Syllabus
+Other CS Exams
+ISRO
+UGC NET
+GeeksforGeeks Videos
+Data Science
+Python Tutorial
+R Tutorial
+Machine Learning
+ML Tutorial
+ML Projects
+100 Days of Machine Learning
+Data Science using Python
+Data Science using R
+Data Science Packages
+Pandas Tutorial
+NumPy Tutorial
+Data Visualization
+Python Data Visualization with Python
+Matplotlib Tutorial
+Bokeh Tutorial
+Plotly Tutorial
+Data Visualization with R
+Data Analysis
+Data Analysis with Python
+Data Analysis with R
+100 Days of Data Analytics
+Deep Learning
+Deep Learning Tutorial
+Deep Learning Projects
+NLP Tutorial
+Computer Vision
+Computer Vision Tutorial
+Computer Vision Projects
+Interview Corner
+Machine Learning Interview Question
+Deep Learning Interview Question
+NLP Interview Question
+Python Interview Questions
+Top 50 R Interview Questions
+Practice
+All DSA Problems
+Problem of the Day
+GFG SDE Sheet
+Curated DSA Lists
+Beginner's DSA Sheet
+Love Babbar Sheet
+Top 50 Array Problems
+Top 50 String Problems
+Top 50 Tree Problems
+Top 50 Graph Problems
+Top 50 DP Problems
+Notifications
+All
+View All
+Notifications
+Mark all as read
+All
+Unread
+Read
+You're all caught up!!
+Beautiful Soup
+Selenium
+Scrapy
+urllib
+Request
+open cv
+Data analysis
+Machine learning
+NLP
+Deep learning
+Data Science
+Interview question
+ML math
+ML Projects
+ML interview
+DL interview
+▲
+Open In App
+160 Days of DSA
+Share Your Experiences
+Python Web Scraping Tutorial
+Introduction to Web Scraping
+Introduction to Web Scraping
+What is Web Scraping and How to Use It?
+Web Scraping - Legal or Illegal?
+Difference between Web Scraping and Web Crawling
+Web Scraping using cURL in PHP
+Basics of Web Scraping
+HTML Basics
+Tags vs Elements vs Attributes in HTML
+CSS Introduction
+CSS Syntax
+JavaScript Cheat Sheet - A Basic Guide to JavaScript
+Setting Up the Environment
+Beautifulsoup Installation - Python
+How to Install Requests in Python - For Windows, Linux, Mac
+Selenium Python Introduction and Installation
+How to Install Python Scrapy on Windows?
+Extracting Data from Web Pages
+Implementing Web Scraping in Python with BeautifulSoup
+How to extract paragraph from a website and save it as a text file?
+Extract all the URLs from the webpage Using Python
+How to Scrape Nested Tags using BeautifulSoup?
+Extract all the URLs that are nested within <li> tags using BeautifulSoup
+Clean Web Scraping Data Using clean-text in Python
+Fetching Web Pages
+GET and POST Requests Using Python
+BeautifulSoup - Scraping Paragraphs from HTML
+HTTP Request Methods
+GET method - Python requests
+POST method - Python requests
+PUT method - Python requests
+DELETE method- Python requests
+HEAD method - Python requests
+PATCH method - Python requests
+Searching and Extract for specific tags Beautifulsoup
+Python BeautifulSoup - find all class
+BeautifulSoup - Search by text inside a tag
+Scrape Google Search Results using Python BeautifulSoup
+Get tag name using Beautifulsoup in Python
+Extracting an attribute value with beautifulsoup in Python
+BeautifulSoup - Modifying the tree
+Find the text of the given tag using BeautifulSoup
+Remove spaces from a string in Python
+Understanding Character Encoding
+XML parsing in Python
+Python - XML to JSON
+Scrapy Basics
+Scrapy - Command Line Tools
+Scrapy - Item Loaders
+Scrapy - Item Pipeline
+Scrapy - Selectors
+Scrapy - Shell
+Scrapy - Spiders
+Scrapy - Feed exports
+Scrapy - Link Extractors
+Scrapy - Settings
+Scrapy - Sending an E-mail
+Scrapy - Exceptions
+Selenium Python Basics
+Navigating links using get method - Selenium Python
+Interacting with Webpage - Selenium Python
+Locating single elements in Selenium Python
+Locating multiple elements in Selenium Python
+Locator Strategies - Selenium Python
+Writing Tests using Selenium Python
+DSA to Development
+Course
+Python Web Scraping Tutorial
+Last Updated :
+29 Nov, 2024
+Summarize
+Comments
+Improve
+Suggest changes
+Like Article
+Like
+Save
+Share
+Report
+Follow
+In today’s digital world, data is the key to unlocking valuable insights, and much of this data is available on the web. But how do you gather large amounts of data from websites efficiently? That’s where
+Python web scraping
+comes in.Web scraping, the process of extracting data from websites, has emerged as a powerful technique to gather information from the vast expanse of the internet.
+In this tutorial, we’ll explore various Python libraries and modules commonly used for web scraping and delve into why Python 3 is the preferred choice for this task. Along with this you will also explore how to use powerful tools like
+BeautifulSoup
+,
+Scrapy
+, and
+Selenium
+to scrape any website.
+Essential Packages and Tools for Python Web Scraping
+The latest version of
+Python
+, offers a rich set of tools and libraries specifically designed for web scraping, making it easier than ever to retrieve data from the web efficiently and effectively.
+Table of Content
+Requests Module
+BeautifulSoup Library
+Selenium
+Lxml
+Urllib Module
+PyautoGUI
+Schedule
+Why Python3 for Web Scraping?
+If you’re eager to master
+web scraping
+and other powerful
+Python techniques
+, our
+Python Programming Self Paced Course
+is a great resource to enhance your skills. This course will guide you through
+Python’s capabilities
+, ensuring you’re equipped to handle any web scraping project with confidence.
+Requests Module
+The requests library is used for making HTTP requests to a specific URL and returns the response. Python requests provide inbuilt functionalities for managing both the request and response.
+pip install requests
+Example: Making a Request
+Python requests module has several built-in methods to make HTTP requests to specified URI using GET, POST, PUT, PATCH, or HEAD requests. A HTTP request is meant to either retrieve data from a specified URI or to push data to a server. It works as a request-response protocol between a client and a server. Here we will be using the GET request. The
+GET method
+is used to retrieve information from the given server using a given URI. The GET method sends the encoded user information appended to the page request.
+Python
+import
+requests
+# Making a GET request
+r
+=
+requests
 .
-Support
-If you have any questions or need help, please open a new issue.
-Next
-Built with
-MkDocs
-using a
-theme
-provided by
-Read the Docs
+get
+(
+'https://www.geeksforgeeks.org/python-programming-language/'
+)
+# check status code for response received
+# success code - 200
+print
+(
+r
+)
+# print content of request
+print
+(
+r
 .
-GitHub
-Next »
+content
+)
+Output
+For more information, refer to our
+Python Requests Tutorial
+.
+BeautifulSoup Library
+Beautiful Soup provides a few simple methods and Pythonic phrases for guiding, searching, and changing a parse tree: a toolkit for studying a document and removing what you need. It doesn’t take much code to document an application.
+Beautiful Soup automatically converts incoming records to Unicode and outgoing forms to UTF-8. You don’t have to think about encodings unless the document doesn’t define an encoding, and Beautiful Soup can’t catch one. Then you just have to choose the original encoding. Beautiful Soup sits on top of famous Python parsers like LXML and HTML, allowing you to try different parsing strategies or trade speed for flexibility.
+pip install beautifulsoup4
+Example
+Importing Libraries:
+The code imports the requests library for making HTTP requests and the BeautifulSoup class from the bs4 library for parsing HTML.
+Making a GET Request:
+It sends a GET request to ‘https://www.geeksforgeeks.org/python-programming-language/’ and stores the response in the variable r.
+Checking Status Code:
+It prints the status code of the response, typically 200 for success.
+Parsing the HTML
+: The HTML content of the response is parsed using BeautifulSoup and stored in the variable soup.
+Printing the Prettified HTML:
+It prints the prettified version of the parsed HTML content for readability and analysis.
+Python
+import
+requests
+from
+bs4
+import
+BeautifulSoup
+# Making a GET request
+r
+=
+requests
+.
+get
+(
+'https://www.geeksforgeeks.org/python-programming-language/'
+)
+# check status code for response received
+# success code - 200
+print
+(
+r
+)
+# Parsing the HTML
+soup
+=
+BeautifulSoup
+(
+r
+.
+content
+,
+'html.parser'
+)
+print
+(
+soup
+.
+prettify
+())
+Output
+Finding Elements by Class
+Now, we would like to extract some useful data from the HTML content. The soup object contains all the data in the nested structure which could be programmatically extracted. The website we want to scrape contains a lot of text so now let’s scrape all those content. First, let’s inspect the webpage we want to scrape.
+In the above image, we can see that all the content of the page is under the div with class entry-content. We will use the find class. This class will find the given tag with the given attribute. In our case, it will find all the div having class as entry-content.
+We can see that the content of the page is under the <p> tag. Now we have to find all the p tags present in this class. We can use the
+find_all
+class of the BeautifulSoup.
+Python
+import
+requests
+from
+bs4
+import
+BeautifulSoup
+# Making a GET request
+r
+=
+requests
+.
+get
+(
+'https://www.geeksforgeeks.org/python-programming-language/'
+)
+# Parsing the HTML
+soup
+=
+BeautifulSoup
+(
+r
+.
+content
+,
+'html.parser'
+)
+s
+=
+soup
+.
+find
+(
+'div'
+,
+class_
+=
+'entry-content'
+)
+content
+=
+soup
+.
+find_all
+(
+'p'
+)
+print
+(
+content
+)
+Output:
+For more information, refer to our
+Python BeautifulSoup
+.
+Selenium
+Selenium is a popular Python module used for automating web browsers. It allows developers to control web browsers programmatically, enabling tasks such as web scraping, automated testing, and web application interaction. Selenium supports various web browsers, including Chrome, Firefox, Safari, and Edge, making it a versatile tool for browser automation.
+Example  1: For Firefox
+In this specific example, we’re directing the browser to the Google search page with the query parameter “geeksforgeeks”. The browser will load this page, and we can then proceed to interact with it programmatically using Selenium. This interaction could involve tasks like extracting search results, clicking on links, or scraping specific content from the page.
+Python
+# import webdriver
+from
+selenium
+import
+webdriver
+# create webdriver object
+driver
+=
+webdriver
+.
+Firefox
+()
+# get google.co.in
+driver
+.
+get
+(
+"https://google.co.in / search?q = geeksforgeeks"
+)
+Output
+Example 2: For Chrome
+We import the webdriver module from the Selenium library.
+We specify the path to the web driver executable. You need to download the appropriate driver for your browser and provide the path to it. In this example, we’re using the Chrome driver.
+We create a new instance of the web browser using webdriver.Chrome() and pass the path to the Chrome driver executable as an argument.
+We navigate to a webpage by calling the get() method on the browser object and passing the URL of the webpage.
+We extract information from the webpage using various methods provided by Selenium. In this example, we retrieve the page title using the title attribute of the browser object.
+Finally, we close the browser using the quit() method.
+Python
+# importing necessary packages
+from
+selenium
+import
+webdriver
+from
+selenium.webdriver.common.by
+import
+By
+from
+webdriver_manager.chrome
+import
+ChromeDriverManager
+# for holding the resultant list
+element_list
+=
+[]
+for
+page
+in
+range
+(
+1
+,
+3
+,
+1
+):
+page_url
+=
+"https://webscraper.io/test-sites/e-commerce/static/computers/laptops?page="
++
+str
+(
+page
+)
+driver
+=
+webdriver
+.
+Chrome
+(
+ChromeDriverManager
+()
+.
+install
+())
+driver
+.
+get
+(
+page_url
+)
+title
+=
+driver
+.
+find_elements
+(
+By
+.
+CLASS_NAME
+,
+"title"
+)
+price
+=
+driver
+.
+find_elements
+(
+By
+.
+CLASS_NAME
+,
+"price"
+)
+description
+=
+driver
+.
+find_elements
+(
+By
+.
+CLASS_NAME
+,
+"description"
+)
+rating
+=
+driver
+.
+find_elements
+(
+By
+.
+CLASS_NAME
+,
+"ratings"
+)
+for
+i
+in
+range
+(
+len
+(
+title
+)):
+element_list
+.
+append
+([
+title
+[
+i
+]
+.
+text
+,
+price
+[
+i
+]
+.
+text
+,
+description
+[
+i
+]
+.
+text
+,
+rating
+[
+i
+]
+.
+text
+])
+print
+(
+element_list
+)
+#closing the driver
+driver
+.
+close
+()
+Output
+For more information, refer to our
+Python Selenium
+.
+Lxml
+The lxml module in Python is a powerful library for processing XML and HTML documents. It provides a high-performance XML and HTML parsing capabilities along with a simple and Pythonic API. lxml is widely used in Python web scraping due to its speed, flexibility, and ease of use.
+pip install lxml
+Example
+Here’s a simple example demonstrating how to use the lxml module for Python web scraping:
+We import the html module from lxml along with the requests module for sending HTTP requests.
+We define the URL of the website we want to scrape.
+We send an HTTP GET request to the website using the requests.get() function and retrieve the HTML content of the page.
+We parse the HTML content using the html.fromstring() function from lxml, which returns an HTML element tree.
+We use XPath expressions to extract specific elements from the HTML tree. In this case, we’re extracting the text content of all the <a> (anchor) elements on the page.
+We iterate over the extracted link titles and print them out.
+Python
+from
+lxml
+import
+html
+import
+requests
+# Define the URL of the website to scrape
+url
+=
+'https://example.com'
+# Send an HTTP request to the website and retrieve the HTML content
+response
+=
+requests
+.
+get
+(
+url
+)
+# Parse the HTML content using lxml
+tree
+=
+html
+.
+fromstring
+(
+response
+.
+content
+)
+# Extract specific elements from the HTML tree using XPath
+# For example, let's extract the titles of all the links on the page
+link_titles
+=
+tree
+.
+xpath
+(
+'//a/text()'
+)
+# Print the extracted link titles
+for
+title
+in
+link_titles
+:
+print
+(
+title
+)
+Output
+More information...
+Urllib Module
+The urllib module in Python is a built-in library that provides functions for working with URLs. It allows you to interact with web pages by fetching URLs (Uniform Resource Locators), opening and reading data from them, and performing other URL-related tasks like encoding and parsing. Urllib is a package that collects several modules for working with URLs, such as:
+urllib.request for opening and reading.
+urllib.parse for parsing URLs
+urllib.error for the exceptions raised
+urllib.robotparser for parsing robot.txt files
+If urllib is not present in your environment, execute the below code to install it.
+pip install urllib3
+Example
+Here’s a simple example demonstrating how to use the urllib module to fetch the content of a web page:
+We define the URL of the web page we want to fetch.
+We use urllib.request.urlopen() function to open the URL and obtain a response object.
+We read the content of the response object using the read() method.
+Since the content is returned as bytes, we decode it to a string using the decode() method with ‘utf-8’ encoding.
+Finally, we print the HTML content of the web page.
+Python
+import
+urllib.request
+# URL of the web page to fetch
+url
+=
+'https://www.example.com'
+try
+:
+# Open the URL and read its content
+response
+=
+urllib
+.
+request
+.
+urlopen
+(
+url
+)
+# Read the content of the response
+data
+=
+response
+.
+read
+()
+# Decode the data (if it's in bytes) to a string
+html_content
+=
+data
+.
+decode
+(
+'utf-8'
+)
+# Print the HTML content of the web page
+print
+(
+html_content
+)
+except
+Exception
+as
+e
+:
+print
+(
+"Error fetching URL:"
+,
+e
+)
+Output
+PyautoGUI
+The pyautogui module in Python is a cross-platform GUI automation library that enables developers to control the mouse and keyboard to automate tasks. While it’s not specifically designed for web scraping, it can be used in conjunction with other web scraping libraries like Selenium to interact with web pages that require user input or simulate human actions.
+pip3 install pyautogui
+Example
+In this example, pyautogui is used to perform scrolling and take a screenshot of the search results page obtained by typing a query into the search input field and clicking the search button using Selenium.
+Python
+import
+pyautogui
+# moves to (519,1060) in 1 sec
+pyautogui
+.
+moveTo
+(
+519
+,
+1060
+,
+duration
+=
+1
+)
+# simulates a click at the present
+# mouse position
+pyautogui
+.
+click
+()
+# moves to (1717,352) in 1 sec
+pyautogui
+.
+moveTo
+(
+1717
+,
+352
+,
+duration
+=
+1
+)
+# simulates a click at the present
+# mouse position
+pyautogui
+.
+click
+()
+Output
+Schedule
+The schedule module in Python is a simple library that allows you to schedule Python functions to run at specified intervals. It’s particularly useful in web scraping in Python when you need to regularly scrape data from a website at predefined intervals, such as hourly, daily, or weekly.
+Example
+We import the necessary modules: schedule, time, requests, and BeautifulSoup from the bs4 package.
+We define a function scrape_data() that performs the web scraping task. Inside this function, we send a GET request to a website (replace ‘https://example.com’ with the URL of the website you want to scrape), parse the HTML content using BeautifulSoup, extract the desired data, and print it.
+We schedule the scrape_data() function to run every hour using schedule.every().hour.do(scrape_data).
+We enter a main loop that continuously checks for pending scheduled tasks using schedule.run_pending() and sleeps for 1 second between iterations to prevent the loop from consuming too much CPU.
+Python
+import
+schedule
+import
+time
+def
+func
+():
+print
+(
+"Geeksforgeeks"
+)
+schedule
+.
+every
+(
+1
+)
+.
+minutes
+.
+do
+(
+func
+)
+while
+True
+:
+schedule
+.
+run_pending
+()
+time
+.
+sleep
+(
+1
+)
+Output
+Why Python3 for Web Scraping?
+Python’s popularity for web scraping stems from several factors:
+Ease of Use
+: Python’s clean and readable syntax makes it easy to understand and write code, even for beginners. This simplicity accelerates the development process and reduces the learning curve for web scraping tasks.
+Rich Ecosystem
+: Python boasts a vast ecosystem of libraries and frameworks tailored for web scraping. Libraries like BeautifulSoup, Scrapy, and Requests simplify the process of parsing HTML, making data extraction a breeze.
+Versatility
+: Python is a versatile language that can be used for a wide range of tasks beyond web scraping. Its flexibility allows developers to integrate web scraping seamlessly into larger projects, such as data analysis, machine learning, or web development.
+Community Support
+: Python has a large and active community of developers who contribute to its libraries and provide support through forums, tutorials, and documentation. This wealth of resources ensures that developers have access to assistance and guidance when tackling web scraping challenges.
+Conclusion
+this tutorial has shown you the basics of how to use Python for web scraping. With the tools we’ve discussed, you can start collecting data from the internet quickly and easily. Whether you need this data for a project, research, or just for fun, Python makes it possible. Remember to always scrape data responsibly and follow the rules set by websites. If you’re excited to learn more about Python and web scraping, check out our
+Python Course
+. It’s a great resource to deepen your understanding and enhance your skills, all while having fun exploring the power of Python.
+Python Web Scraping – FAQs
+1.
+What is Python web scraping?
+Python web scraping refers to the process of extracting data from websites using Python programming. It involves fetching HTML content from a web page and parsing it to gather specific information.
+2.
+Is web scraping legal?
+Web scraping is legal as long as you comply with the website’s
+terms of service
+and avoid scraping personal or sensitive data. Always check the site’s
+robots.txt
+file to ensure you’re following the rules.
+3.
+What is the difference between BeautifulSoup and Scrapy?
+BeautifulSoup is a simpler library for beginners focused on HTML parsing and extraction, whereas
+Scrapy
+is a more advanced web scraping framework that can handle complex tasks like crawling large datasets or handling pagination automatically.
+4.
+What are some common use cases for Python web scraping?
+Common use cases include extracting data for
+price comparison
+,
+content aggregation
+,
+job listings
+,
+real estate data
+, and
+sentiment analysis
+. Web scraping helps gather structured data from websites for various business and research purposes.
+Comment
+More info
+Next Article
+Introduction to Web Scraping
+GeeksforGeeks
+Improve
+Similar Reads
+Implementing web scraping using lxml in Python
+Web scraping basically refers to fetching only some important piece of information from one or more websites. Every website has recognizable structure/pattern of HTML elements. Steps to perform web scraping :1. Send a link and get the response from the sent link 2. Then convert response object to a byte string. 3. Pass the byte string to 'fromstrin
+3 min read
+Web Scraping CryptoCurrency price and storing it in MongoDB using Python
+Let us see how to fetch history price in USD or BTC, traded volume and market cap for a given date range using Santiment API and storing the data into MongoDB collection. Python is a mature language and getting much used in the Cryptocurrency domain. MongoDB is a NoSQL database getting paired with Python in many projects which helps to hold details
+4 min read
+Web scraping from Wikipedia using Python - A Complete Guide
+In this article, you will learn various concepts of web scraping and get comfortable with scraping various types of websites and their data. The goal is to scrape data from the Wikipedia Home page and parse it through various web scraping techniques. You will be getting familiar with various web scraping techniques, python modules for web scraping,
+9 min read
+Quote Guessing Game using Web Scraping in Python
+Prerequisite: BeautifulSoup Installation In this article, we will scrape a quote and details of the author from this site http//quotes.toscrape.com using python framework called BeautifulSoup and develop a guessing game using different data structures and algorithm. The user will be given 4 chances to guess the author of a famous quote, In every ch
+3 min read
+How to Build Web scraping bot in Python
+In this article, we are going to see how to build a web scraping bot in Python. Web Scraping is a process of extracting data from websites. A Bot is a piece of code that will automate our task. Therefore, A web scraping bot is a program that will automatically scrape a website for data, based on our requirements. Module neededbs4: Beautiful Soup(bs
+8 min read
+Clean Web Scraping Data Using clean-text in Python
+If you like to play with API's or like to scrape data from various websites, you must've come around random annoying text, numbers, keywords that come around with data. Sometimes it can be really complicating and frustrating to clean scraped data to obtain the actual data that we want. In this article, we are going to explore a python library calle
+2 min read
+Web Scraping Financial News Using Python
+In this article, we will cover how to extract financial news seamlessly using Python. This financial news helps many traders in placing the trade in cryptocurrency, bitcoins, the stock markets, and many other global stock markets setting up of trading bot will help us to analyze the data. Thus all this can be done with the help of web scraping usin
+3 min read
+Web Scraping Tables with Selenium and Python
+Selenium is the automation software testing tool that obtains the website, performs various actions, or obtains the data from the website. It was chiefly developed for easing the testing work by automating web applications. Nowadays, apart from being used for testing, it can also be used for making tedious work interesting. Do you know that with th
+4 min read
+Pagination using Scrapy - Web Scraping with Python
+Pagination using Scrapy. Web scraping is a technique to fetch information from websites. Scrapy is used as a Python framework for web scraping. Getting data from a normal website is easier, and can be just achieved by just pulling the HTML of the website and fetching data by filtering tags. But what is the case when there is Pagination in Python an
+3 min read
+Reading selected webpage content using Python Web Scraping
+Prerequisite: Downloading files in Python, Web Scraping with BeautifulSoup We all know that Python is a very easy programming language but what makes it cool are the great number of open source library written for it. Requests is one of the most widely used library. It allows us to open any HTTP/HTTPS website and let us do any kind of stuff we norm
+3 min read
+Spoofing IP address when web scraping using Python
+In this article, we are going to scrap a website using Requests by rotating proxies in Python. Modules RequiredRequests module allows you to send HTTP requests and returns a response with all the data such as status, page content, etc. Syntax: requests.get(url, parameter) JSON JavaScript Object Notation is a format for structuring data. It is mainl
+3 min read
+Python | Tools in the world of Web Scraping
+Web page scraping can be done using multiple tools or using different frameworks in Python. There are variety of options available for scraping data from a web page, each suiting different needs. First, let's understand the difference between web-scraping and web-crawling. Web crawling is used to index the information on the page using bots also kn
+4 min read
+Best Python Web Scraping Libraries in 2024
+Python offers several powerful libraries for web scraping, each with its strengths and suitability for different tasks. Whether you're scraping data for research, monitoring, or automation, choosing the right library can significantly affect your productivity and the efficiency of your code. This article explores the Top Python web scraping librari
+6 min read
+Increase the speed of Web Scraping in Python using HTTPX module
+In this article, we will talk about how to speed up web scraping using the requests module with the help of the HTTPX module and AsyncIO by fetching the requests concurrently. The user must be familiar with Python. Knowledge about the Requests module or web scraping would be a bonus. Required Module For this tutorial, we will use 4 modules - timere
+4 min read
+Implementing Web Scraping in Python with BeautifulSoup
+There are mainly two ways to extract data from a website: Use the API of the website (if it exists). For example, Facebook has the Facebook Graph API which allows retrieval of data posted on Facebook.Access the HTML of the webpage and extract useful information/data from it. This technique is called web scraping or web harvesting or web data extrac
+8 min read
+Web Scraping for Stock Prices in Python
+Web scraping is a data extraction method that collects data only from websites. It is often used for data mining and gathering valuable insights from large websites. Web scraping is also useful for personal use. Python includes a nice library called BeautifulSoup that enables web scraping. In this article, we will extract current stock prices using
+6 min read
+Web Scraping - Legal or Illegal?
+If you're connected with the term 'Web Scraping' anyhow, then you must come across a question - Is Web Scraping legal or illegal? Okay, so let's discuss it. If you look closely, you will find out that in today's era the biggest asset of any business is Data! Even the top giants like Facebook, Amazon, Uber are ruling because of the vast amount of da
+5 min read
+Web Scraping using Beautifulsoup and scrapingdog API
+In this post we are going to scrape dynamic websites that use JavaScript libraries like React.js, Vue.js, Angular.js, etc you have to put extra efforts. It is an easy but lengthy process if you are going to install all the libraries like Selenium, Puppeteer, and headerless browsers like Phantom.js. But, we have a tool that can handle all this load
+5 min read
+Web Scraping Coronavirus Data into MS Excel
+Prerequisites: Web Scraping using BeautifulSoup Coronavirus cases are increasing rapidly worldwide. This article will guide you on how to web scrape Coronavirus data and into Ms-excel. What is Web Scraping? If you’ve ever copy and pasted information from a website, you’ve performed the same function as any web scraper, only on a microscopic, manual
+5 min read
+Web Scraping - Amazon Customer Reviews
+In this article, we are going to see how we can scrape the amazon customer review using Beautiful Soup in Python. Module neededbs4: Beautiful Soup(bs4) is a Python library for pulling data out of HTML and XML files. This module does not come built-in with Python. To install this type the below command in the terminal. pip install bs4 requests: Requ
+5 min read
+Web Scraping Without Getting Blocked
+Web Scraping refers to the process of scraping/extracting data from a website using the HTTP protocol or web browser. The process can either be manual or it can be automated using a bot or a web crawler. Also, there is a misconception about web scraping being illegal, the truth is that it is perfectly legal unless you're trying to access non-public
+7 min read
+How to not get caught while web scraping ?
+In this article, we are going to discuss how to not get caught while web scraping. Let's look at all such alternatives in detail: Robots.txtIt is a text file created by the webmaster which tells the search engine crawlers which pages are allowed to be crawled by the bot, so it is better to respect robots.txt before scraping.Example: Here GFG's robo
+5 min read
+Web Scraping in Flutter
+The process of extracting required data/information from a web page by accessing the HTML of the web page is called Web Scraping or Web Harvesting or Web Data Extraction. This article discusses the steps involved in Web Scraping by using Flutter's html and http packages. Step 1: Set up a new Flutter App Create a new flutter app by running the comma
+6 min read
+How to do web scraping using selenium and google colab?
+Selenium is used for testing, web automation tasks, web scraping tasks etc. Its WebDriver component allows user actions to perform tasks in the web browser, while its headless mode performs automation tasks in the background. Google Colaboratory in short Google Colab is a cloud-based platform provided by Google to perform Python tasks, in an enviro
+6 min read
+Create Cricket Score API using Web Scraping in Flask
+Cricket is one of the famous outdoor sport played worldwide. There are very few APIs providing live scoreboards and none of them are free to use. Using any of the scoreboards available we can create API for ourselves. This method not only works for Cricket Scoreboard but also for any information available online. Following is the flow in which this
+6 min read
+10 Best Web Scraping Frameworks for Data Extraction
+Web scraping, as its name implies, is the process of extracting information from websites. This technique has been increasingly powerful in the year of big data. Regardless of whether you will be employed as a researcher, developer, or business analyst, web scraping can become useful and help you collect data for market analysis, research purposes,
+6 min read
+What is Web Scraping and How to Use It?
+Suppose you want some information from a website. Let’s say a paragraph on Donald Trump! What do you do? Well, you can copy and paste the information from Wikipedia into your file. But what if you want to get large amounts of information from a website as quickly as possible? Such as large amounts of data from a website to train a Machine Learning
+7 min read
+Which packages in R can we use to do web scraping?
+In R, several packages can be used for web scraping, with rvest, httr, and xml2 being among the most popular. These packages allow users to download and parse web pages, extract specific data, and handle various aspects of web scraping effectively. Each of these packages has unique features that make them suitable for different types of web scrapin
+2 min read
+10 Best Web Scraping Tools
+In today's vast world of data and decision-making, web scraping has become an invaluable technique for extracting information from websites. Whether you're a data enthusiast, a researcher, or a business professional, having the right web scraping tools at your end can greatly enhance your data-gathering capabilities. Before moving ahead in this art
+11 min read
+Introduction to Web Scraping
+Web scraping is a technique to fetch data from websites. While surfing on the web, many websites prohibit the user from saving data for personal use. This article will brief you about What is Web Scraping, Uses, Techniques, Tools, and challenges of Web Scraping. Table of Content What is Web Scraping?Uses of Web ScrapingTechniques of Web ScrapingToo
+6 min read
+Article Tags :
+AI-ML-DS
+Python
+Web-scraping
+Practice Tags :
+python
+Like
+248k+ interested Geeks
+Java Programming Online Course [Complete Beginner to Advanced]
+Explore
+300k+ interested Geeks
+Data Structures & Algorithms in Python - Self Paced
+Explore
+224k+ interested Geeks
+Python Full Course Online - Complete Beginner to Advanced
+Explore
+Explore More
+Corporate & Communications Address:- A-143, 7th Floor, Sovereign Corporate Tower, Sector- 136, Noida, Uttar Pradesh (201305) | Registered Address:- K 061, Tower K, Gulshan Vivante Apartment, Sector 137, Noida, Gautam Buddh Nagar, Uttar Pradesh, 201305
+Company
+About Us
+Legal
+Careers
+In Media
+Contact Us
+Advertise with us
+GFG Corporate Solution
+Placement Training Program
+Explore
+Job-A-Thon Hiring Challenge
+Hack-A-Thon
+GfG Weekly Contest
+Offline Classes (Delhi/NCR)
+DSA in JAVA/C++
+Master System Design
+Master CP
+GeeksforGeeks Videos
+Geeks Community
+Languages
+Python
+Java
+C++
+PHP
+GoLang
+SQL
+R Language
+Android Tutorial
+DSA
+Data Structures
+Algorithms
+DSA for Beginners
+Basic DSA Problems
+DSA Roadmap
+DSA Interview Questions
+Competitive Programming
+Data Science & ML
+Data Science With Python
+Data Science For Beginner
+Machine Learning
+ML Maths
+Data Visualisation
+Pandas
+NumPy
+NLP
+Deep Learning
+Web Technologies
+HTML
+CSS
+JavaScript
+TypeScript
+ReactJS
+NextJS
+NodeJs
+Bootstrap
+Tailwind CSS
+Python Tutorial
+Python Programming Examples
+Django Tutorial
+Python Projects
+Python Tkinter
+Web Scraping
+OpenCV Tutorial
+Python Interview Question
+Computer Science
+GATE CS Notes
+Operating Systems
+Computer Network
+Database Management System
+Software Engineering
+Digital Logic Design
+Engineering Maths
+DevOps
+Git
+AWS
+Docker
+Kubernetes
+Azure
+GCP
+DevOps Roadmap
+System Design
+High Level Design
+Low Level Design
+UML Diagrams
+Interview Guide
+Design Patterns
+OOAD
+System Design Bootcamp
+Interview Questions
+School Subjects
+Mathematics
+Physics
+Chemistry
+Biology
+Social Science
+English Grammar
+Commerce
+Accountancy
+Business Studies
+Economics
+Management
+HR Management
+Finance
+Income Tax
+Databases
+SQL
+MYSQL
+PostgreSQL
+PL/SQL
+MongoDB
+Preparation Corner
+Company-Wise Recruitment Process
+Resume Templates
+Aptitude Preparation
+Puzzles
+Company-Wise Preparation
+Companies
+Colleges
+Competitive Exams
+JEE Advanced
+UGC NET
+UPSC
+SSC CGL
+SBI PO
+SBI Clerk
+IBPS PO
+IBPS Clerk
+More Tutorials
+Software Development
+Software Testing
+Product Management
+Project Management
+Linux
+Excel
+All Cheat Sheets
+Recent Articles
+Free Online Tools
+Typing Test
+Image Editor
+Code Formatters
+Code Converters
+Currency Converter
+Random Number Generator
+Random Password Generator
+Write & Earn
+Write an Article
+Improve an Article
+Pick Topics to Write
+Share your Experiences
+Internships
+DSA/Placements
+DSA - Self Paced Course
+DSA in JavaScript - Self Paced Course
+DSA in Python - Self Paced
+C Programming Course Online - Learn C with Data Structures
+Complete Interview Preparation
+Master Competitive Programming
+Core CS Subject for Interview Preparation
+Mastering System Design: LLD to HLD
+Tech Interview 101 - From DSA to System Design [LIVE]
+DSA to Development [HYBRID]
+Placement Preparation Crash Course [LIVE]
+Development/Testing
+JavaScript Full Course
+React JS Course
+React Native Course
+Django Web Development Course
+Complete Bootstrap Course
+Full Stack Development - [LIVE]
+JAVA Backend Development - [LIVE]
+Complete Software Testing Course [LIVE]
+Android Mastery with Kotlin [LIVE]
+Machine Learning/Data Science
+Complete Machine Learning & Data Science Program - [LIVE]
+Data Analytics Training using Excel, SQL, Python & PowerBI - [LIVE]
+Data Science Training Program - [LIVE]
+Mastering Generative AI and ChatGPT
+Programming Languages
+C Programming with Data Structures
+C++ Programming Course
+Java Programming Course
+Python Full Course
+Clouds/Devops
+DevOps Engineering
+AWS Solutions Architect Certification
+Salesforce Certified Administrator Course
+GATE
+GATE CS & IT Test Series - 2025
+GATE DA Test Series 2025
+GATE CS & IT Course - 2025
+GATE DA Course 2025
+@GeeksforGeeks, Sanchhaya Education Private Limited
+,
+All rights reserved
+We use cookies to ensure you have the best browsing experience on our website. By using our site, you
+        acknowledge that you have read and understood our
+Cookie Policy
+&
+Privacy Policy
+Got It !
+Improvement
+Suggest changes
+Suggest Changes
+Help us improve. Share your suggestions to enhance the article. Contribute your expertise and make a difference in the GeeksforGeeks portal.
+Create Improvement
+Enhance the article with your expertise. Contribute to the GeeksforGeeks community and help create better learning resources for all.
+Suggest Changes
+min 4 words, max CharLimit:2000
+What kind of Experience do you want to share?
+Interview Experiences
+Admission Experiences
+Career Journeys
+Work Experiences
+Campus Experiences
+Competitive Exam Experiences
