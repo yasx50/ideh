@@ -5,8 +5,6 @@ import { PrismaClient } from '@prisma/client'; // Correct way to import Prisma C
 const prisma = new PrismaClient();
 
 import { NextResponse } from 'next/server';
-import { hash } from 'crypto';
-import { log } from 'console';
 
 export async function POST(req, { params }) {
   try {

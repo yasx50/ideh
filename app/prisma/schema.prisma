@@ -33,11 +33,14 @@ model ScrapedData {
   createdByUserId Int
 }
 
+
 model UserHistory {
-  id             Int      @id @default(autoincrement())
-  promptText     String
-  generatedOutput String
-  createdAt      DateTime @default(now())
-  createdByUser  User     @relation(fields: [createdByUserId], references: [id])
-  createdByUserId Int
+  id               Int      @id @default(autoincrement())
+  promptText       String
+  generatedOutput  String
+  createdAt        DateTime @default(now())
+  createdByUser    User     @relation(fields: [createdByUserId], references: [id])
+  createdByUserId  Int
+
+  @@index([createdByUserId, createdAt]) // Index for faster querying by user and time
 }
