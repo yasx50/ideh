@@ -1,11 +1,12 @@
 import React from 'react'
+import Navbar from '../components/Navbar/Navbar'
 
 function LandingPage() {
   return (
     <>
       <div>
         {/* <Navbar></Navbar> */}
-
+        <Navbar></Navbar>
         {/* Hero Section */}
         <section class="text-gray-600 body-font">
           <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
