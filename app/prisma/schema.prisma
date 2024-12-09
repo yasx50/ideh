@@ -1,0 +1,46 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id         Int       @id @default(autoincrement())
+  name       String
+  email      String    @unique
+  password   String    // This is the missing password field
+  createdAt  DateTime  @default(now())
+  ScrapedData ScrapedData[]
+  UserHistory UserHistory[]
+}
+
+
+model ScrapedData {
+  id             Int      @id @default(autoincrement())
+  url            String
+  content        String
+  createdAt      DateTime @default(now())
+  createdByUser  User     @relation(fields: [createdByUserId], references: [id])
+  createdByUserId Int
+}
+
+
+model UserHistory {
+  id               Int      @id @default(autoincrement())
+  promptText       String
+  generatedOutput  String
+  createdAt        DateTime @default(now())
+  createdByUser    User     @relation(fields: [createdByUserId], references: [id])
+  createdByUserId  Int
+
+  @@index([createdByUserId, createdAt]) // Index for faster querying by user and time
+}

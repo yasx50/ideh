@@ -5,10 +5,13 @@ import os
 import json
 from langchain_community.llms import HuggingFaceHub
 from langchain.prompts import PromptTemplate
-from groq import Groq
 
+from flask_cors import CORS
+
+from groq import Groq
 # Initialize Flask app
 app = Flask(__name__)
+cors = CORS(app) # allow CORS for all domains on all routes.
 
 # Hugging Face LLM setup (free model via Hugging Face Hub)
 huggingface_llm = HuggingFaceHub(
@@ -18,7 +21,7 @@ huggingface_llm = HuggingFaceHub(
 )
 
 # Groq client setup
-groq_client = Groq(api_key='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')  # Replace with your Groq API key
+groq_client = Groq(api_key='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')  # Replace with your Groq API key
 
 # Define a helper function to split text into batches
 def split_into_batches(text, max_length):
@@ -68,7 +71,7 @@ def process_batch_with_groq(batch):
                     "content": batch,
                 }
             ],
-            model="llama-3.2-90b-text-preview",  # Replace with Groq-supported model
+            model="llama3-70b-8192",  # Replace with Groq-supported model
         )
         return chat_completion.choices[0].message.content
     except Exception as e:
@@ -115,32 +118,31 @@ def process_url():
         batches = split_into_batches(content, max_batch_length)
 
         print("[INFO] Starting batch processing...")
-        # Process each batch with both Hugging Face and Groq
-        processed_batches = []
+        # Unified result to store combined outputs
+        unified_result = ""
+
         for i, batch in enumerate(batches):
             print(f"[INFO] Processing batch {i + 1} of {len(batches)}...")
-            huggingface_response = process_batch_with_huggingface(batch)
             groq_response = process_batch_with_groq(batch)
-            combined_response = {
-                "huggingface": huggingface_response,
-                "groq": groq_response
-            }
-            processed_batches.append(combined_response)
+            # Combine the result into a unified string (or other format if required)
+            unified_result += f"\nBatch {i + 1} Response:\n{groq_response}\n"
+
             print(f"[INFO] Batch {i + 1} processed.")
 
-        # Merge the processed responses
+        # Save the unified result to a file
         print("[INFO] Saving result to results.json...")
         results_file = "results.json"
         with open(results_file, "w", encoding="utf-8") as file:
-            json.dump(processed_batches, file, indent=4)
+            json.dump({"final_result": unified_result}, file, indent=4)
 
         print("[INFO] Processing complete. Sending response.")
-        # Return the processed data in JSON format
-        return jsonify({"processed_data": processed_batches})
+        # Return the unified processed data in JSON format
+        return jsonify({"final_result": unified_result})
 
     except Exception as e:
         print(f"[ERROR] {str(e)}")
         return jsonify({"error": str(e)}), 500
+
 
 # Run the app
 if __name__ == '__main__':

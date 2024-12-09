@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Ensures the base path is the root of your project
+    "paths": {
+      "@/*": ["./src/*"] // Aliases for src, if needed
+    }
+  }
+}
