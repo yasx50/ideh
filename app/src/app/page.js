@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 function HOME() {
   return (
     <div>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
 
       {/* Hero Section */}
       <section class="text-gray-600 body-font">

@@ -2,6 +2,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Toaster } from 'react-hot-toast';
+import Navbar from "./components/Navbar/Navbar";
 // import "@/public/assets/scss/style.scss"
 
 
@@ -17,12 +18,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossOrigin="anonymous" />
-        <script src="https://cdn.tailwindcss.com"></script>
-        </head>
+      </head>
       <body className={inter.className}>
+        <Navbar></Navbar>
         <Toaster />
         {children}
       </body>
+      <script src="https://cdn.tailwindcss.com"></script>
     </html>
   );
 }
