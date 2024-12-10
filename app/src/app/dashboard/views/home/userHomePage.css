@@ -1,0 +1,52 @@
+/* Background and Card Styles */
+.background-container {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+  }
+  
+  .scrape-card {
+    background: white;
+    max-width: 400px;
+    color: black;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animated-fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  /* Button Styles */
+  .scrape-button {
+    background-color: #007bff;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .scrape-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 123, 255, 0.4);
+  }
+  
+  /* Form Styling */
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+  }
+  
