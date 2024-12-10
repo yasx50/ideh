@@ -61,7 +61,7 @@ function Login() {
         }
 
         // Redirect to /dashboard
-        router.push('/dashboard');
+        router.push('/dashboard/screens');
       } else {
         toast.error(data.message || 'An unexpected error occurred'); // Error toast
       }
