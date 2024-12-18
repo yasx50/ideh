@@ -1,18 +1,17 @@
 "use client";
 
-import './page.css';
-import React, { useState } from 'react';
-import { useRouter } from 'next/navigation'; // Import useRouter
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import "./page.css";
+import React, { useState } from "react";
+import { useRouter } from "next/navigation"; // Import useRouter
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Login() {
-  
   const [isSignInMode, setIsSignInMode] = useState(true);
   const [formData, setFormData] = useState({
-    username: '',
-    email: '',
-    password: '',
+    name: "",
+    email: "",
+    password: "",
   });
 
   const router = useRouter(); // Initialize useRouter
@@ -30,10 +29,10 @@ function Login() {
       let response;
       if (isSignInMode) {
         // Login request
-        response = await fetch('/api/auth/login', {
-          method: 'POST',
+        response = await fetch("/api/auth/login", {
+          method: "POST",
           headers: {
-            'Content-Type': 'application/json',
+            "Content-Type": "application/json",
           },
           body: JSON.stringify({
             email: formData.email,
@@ -42,10 +41,10 @@ function Login() {
         });
       } else {
         // Signup request
-        response = await fetch('/api/auth/register', {
-          method: 'POST',
+        response = await fetch("/api/auth/register", {
+          method: "POST",
           headers: {
-            'Content-Type': 'application/json',
+            "Content-Type": "application/json",
           },
           body: JSON.stringify(formData),
         });
@@ -54,25 +53,25 @@ function Login() {
       const data = await response.json();
 
       if (response.ok) {
-        toast.success(data.message); // Success toast
+        toast.success(data.message || "Success!"); // Success toast
 
         if (isSignInMode) {
-          localStorage.setItem('user', JSON.stringify(data.user)); // Store user info
+          localStorage.setItem("user", JSON.stringify(data.user)); // Store user info
         }
 
-        // Redirect to /dashboard
-        router.push('/dashboard/screens');
+        // Redirect to dashboard
+        router.push("/dashboard/views/home");
       } else {
-        toast.error(data.message || 'An unexpected error occurred'); // Error toast
+        toast.error(data.message || "An unexpected error occurred"); // Error toast
       }
     } catch (error) {
-      console.error('Error:', error);
-      toast.error('An unexpected error occurred'); // General error toast
+      console.error("Error:", error);
+      toast.error("An unexpected error occurred"); // General error toast
     }
   };
 
   return (
-    <div className={`container ${isSignInMode ? '' : 'sign-up-mode'}`}>
+    <div className={`container ${isSignInMode ? "" : "sign-up-mode"}`}>
       <ToastContainer position="top-right" autoClose={3000} />
       <div className="forms-container">
         <div className="signin-signup">
@@ -111,9 +110,9 @@ function Login() {
                 <i className="fas fa-user"></i>
                 <input
                   type="text"
-                  name="username"
-                  placeholder="Username"
-                  value={formData.username}
+                  name="name"
+                  placeholder="name"
+                  value={formData.name}
                   onChange={handleChange}
                   required
                 />
@@ -150,7 +149,10 @@ function Login() {
           <div className="content">
             <h3>New here?</h3>
             <p>Enter your details and start your journey with us</p>
-            <button className="btn transparent" onClick={() => setIsSignInMode(false)}>
+            <button
+              className="btn transparent"
+              onClick={() => setIsSignInMode(false)}
+            >
               Sign up
             </button>
           </div>
@@ -160,7 +162,10 @@ function Login() {
           <div className="content">
             <h3>One of us?</h3>
             <p>To keep connected with us please login with your personal info</p>
-            <button className="btn transparent" onClick={() => setIsSignInMode(true)}>
+            <button
+              className="btn transparent"
+              onClick={() => setIsSignInMode(true)}
+            >
               Sign in
             </button>
           </div>
