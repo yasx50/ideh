@@ -41,6 +41,8 @@ export async function POST(req, { params }) {
 
     // Standard login flow if no valid token is found
     const { email, password } = await req.json();
+    console.log(email,password);
+    
 
     if (!email || !password) {
       return NextResponse.json({
