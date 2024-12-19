@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import Loader from "@/app/components/Loader/Loader";
 
 export default function Layout({ children }) {
   const router = useRouter();
@@ -15,7 +16,7 @@ export default function Layout({ children }) {
           credentials: "include", // Include cookies for session token
         });
         console.log(response);
-        
+
         if (!response.ok) {
           // Redirect to login if user is not authenticated
           router.push("/login");
@@ -24,6 +25,7 @@ export default function Layout({ children }) {
 
         const data = await response.json();
         console.log("User data:", data); // Debugging purposes
+
         setLoading(false); // Stop loading once user data is retrieved
       } catch (error) {
         console.error("Error fetching user data:", error);
@@ -35,7 +37,8 @@ export default function Layout({ children }) {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>; // Show a loading screen until data is fetched
+    return <Loader></Loader> // Show a loading screen until data is fetched
+    // <Loader></Loader>
   }
 
   return <>{children}</>;

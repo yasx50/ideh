@@ -1,6 +1,11 @@
-Introduction to Web Scraping - GeeksforGeeks
+Python | Multiple Face Recognition using dlib - GeeksforGeeks
 Skip to content
 Courses
+Get IBM Certifications
+Complete Machine Learning & Data Science Program
+Data Science Training Program
+Data Analytics Training using Excel, SQL, Python & PowerBI
+Complete Data Analytics Program
 DSA to Development
 For Working Professionals
 Data Structure & Algorithm Classes (Live)
@@ -10,55 +15,30 @@ DevOps(Live)
 Data Structures & Algorithms in Python
 For Students
 Interview Preparation Course
-GATE CS & IT 2024
+GATE CS & IT 2025
 Data Science (Live)
 Data Structure & Algorithm-Self Paced(C++/JAVA)
 Master Competitive Programming(Live)
 Full Stack Development with React & Node JS(Live)
+All Courses
 Full Stack Development
 Data Science Program
-All Courses
 Tutorials
-Web Development
-Web Development Roadmap
-Front-End Development
-Back-End Development
-Full Stack Development
-MERN Stack
-MEAN Stack
-Web Development Projects
-Web Development using Python
+Python Tutorial
+Taking Input in Python
+Python Operators
+Python Variables
+Data Types
+Loops in Python
+Python Functions
+Python OOPS Concept
+DSA in Python
+Python Exercises
+Web Development in Python
 Django
 Flask
 Postman
-Github
 Web Scrapping in Python
-ML & Data Science
-Machine Learning
-Machine Learning Tutorial
-Maths for ML
-ML Projects
-100 Days of Machine Learning
-Data Science Tutorial
-Data Science Packages
-Pandas Tutorial
-NumPy Tutorial
-Data Visualization
-Data Visualization with Python
-Data Visualization with R
-Tableau
-Power BI
-Data Analysis
-Data Analysis with Python
-Data Analysis with R
-100 Days of Data Analytics
-Deep Learning
-NLP Tutorial
-OpenCV Tutorial
-Interview Questions
-Machine Learning Interview Question
-Deep Learning Interview Question
-R Interview Questions
 Data Structures & Algorithms
 Data Structures
 Arrays
@@ -99,11 +79,12 @@ Infosys Coding Sheet
 TCS Coding Sheet
 Cognizant Coding Sheet
 HCL Coding Sheet
+Competitive Programming
 DSA Cheat Sheets
 Top 75 DSA Questions
 Blind 75
 DSA Sheet for Beginners
-SDE Sheet
+SDE Sheets
 FAANG Coding Sheet
 Love Babbar Sheet
 Mass Recruiter Sheet
@@ -126,16 +107,24 @@ Multiple Choice Quizzes
 Aptitude for Placements
 Puzzles for Interviews
 Languages
-C
-C++
 Java
-Python
+C++
 R Tutorial
+C
 C#
 SQL
-Scala
 Perl
 Go Language
+Web Development
+HTML
+CSS
+JavaScript
+TypeScript
+ReactJS
+NextJS
+Node.js
+PHP
+100 Days of Web Development
 CS Subjects
 Engineering Mathematics
 Operating System
@@ -158,6 +147,7 @@ DevOps Roadmap
 DevOps Interview Questions
 Linux
 School Learning
+Mathematics
 Class 8 Study Material
 Class 9 Study Material
 Class 10 Study Material
@@ -167,7 +157,6 @@ English Grammar
 GfG School
 Commerce
 GATE
-GATE CS/IT Test Series 2024
 GATE Computer Science Notes
 Last Minute Notes
 GATE CS Solved Papers
@@ -178,89 +167,53 @@ Other CS Exams
 ISRO
 UGC NET
 GeeksforGeeks Videos
-HTML/CSS
-HTML
-HTML Tutorial
-HTML Tags
-HTML Attributes
-HTML Global Attributes
-HTML DOM
-HTML DOM Audio/Video
-HTML 5
-HTML SVG
-HTML Canvas
-MathML
-HTML Examples
-CSS
-CSS Tutorial
-CSS Selectors
-CSS Properties
-CSS Functions
-CSS Examples
-CSS A to Z Guide
-Bootstrap
-Bootstrap Tutorial
-Bootstrap 4 Tutorial
-Bootstrap 5 Tutorial
-CSS Frameworks
-HTML and CSS Projects
-HTML Formatter
-CSS Formatter
-Interview Questions
-HTML Interview Questions
-CSS Interview Questions
-Tailwind CSS Interview Questions
-JavaScript
-JavaScript
-JS Tutorial
-JS Array
-JS String
-JS Object
-JS Operators
-JS Set
-JS Map
-JS RegExp
-JS Programs
-JavaScript Design Patterns
-Top JavaScript Projects
-Top JavaScript Projects
-JS Frameworks
-Lodash
-Moment.js
-P5.js
-D3.js
-TensorFlow.js
-jQuery
-jQuery Tutorial
-jQuery Selectors
-jQuery Events
-jQuery Effects
-jQuery AJAX
-jQuery Properties
-jQuery Plugins
-jQuery UI
-ES6
-TypeScript Tutorial
-ReactJS Tutorial
-ReactJS Frameworks
-Next.js
-React Bootstrap
-Ant Design
-React Desktop
-React Rebass
-Blueprint
-React Suite
-Evergreen
-Node.js Tutorial
-Express.js Tutorial
-Interview Corners
-JavaScript Interview Questions
-TypeScript Interview Questions
-jQuery Interview Questions
-AngularJS Interview Questions
-React Interview Questions
-Node Interview Questions
-MERN Stack Interview Questions
+Data Science
+Python Tutorial
+R Tutorial
+Machine Learning
+ML Tutorial
+ML Projects
+100 Days of Machine Learning
+Data Science using Python
+Data Science using R
+Data Science Packages
+Pandas Tutorial
+NumPy Tutorial
+Data Visualization
+Python Data Visualization with Python
+Matplotlib Tutorial
+Bokeh Tutorial
+Plotly Tutorial
+Data Visualization with R
+Data Analysis
+Data Analysis with Python
+Data Analysis with R
+100 Days of Data Analytics
+Deep Learning
+Deep Learning Tutorial
+Deep Learning Projects
+NLP Tutorial
+Computer Vision
+Computer Vision Tutorial
+Computer Vision Projects
+Interview Corner
+Machine Learning Interview Question
+Deep Learning Interview Question
+NLP Interview Question
+Python Interview Questions
+Top 50 R Interview Questions
+Practice
+All DSA Problems
+Problem of the Day
+GFG SDE Sheet
+Curated DSA Lists
+Beginner's DSA Sheet
+Love Babbar Sheet
+Top 50 Array Problems
+Top 50 String Problems
+Top 50 Tree Problems
+Top 50 Graph Problems
+Top 50 DP Problems
 Notifications
 All
 View All
@@ -270,99 +223,52 @@ All
 Unread
 Read
 You're all caught up!!
-PHP Tutorial
-PHP Exercises
-PHP Array
-PHP String
-PHP Calendar
-PHP Filesystem
-PHP Math
-PHP Programs
-PHP Array Programs
-PHP String Programs
-PHP Interview Questions
-PHP GMP
-PHP IntlChar
-PHP Image Processing
-PHP DsSet
-PHP DsMap
-PHP Formatter
-Web Technology
+Open CV
+scikit-image
+pycairo
+Pyglet
+Python
+Numpy
+Pandas
+Python Database
+Data Analysis
+ML Math
+Machine Learning
+NLP
+Deep Learning
+Deep Learning Interview Questions
+ML Projects
+ML Interview Questions
+100 Days of Machine Learning
 ▲
 Open In App
 160 Days of DSA
 Share Your Experiences
-Python Web Scraping Tutorial
-Introduction to Web Scraping
-Introduction to Web Scraping
-What is Web Scraping and How to Use It?
-Web Scraping - Legal or Illegal?
-Difference between Web Scraping and Web Crawling
-Web Scraping using cURL in PHP
-Basics of Web Scraping
-HTML Basics
-Tags vs Elements vs Attributes in HTML
-CSS Introduction
-CSS Syntax
-JavaScript Cheat Sheet - A Basic Guide to JavaScript
-Setting Up the Environment
-Beautifulsoup Installation - Python
-How to Install Requests in Python - For Windows, Linux, Mac
-Selenium Python Introduction and Installation
-How to Install Python Scrapy on Windows?
-Extracting Data from Web Pages
-Implementing Web Scraping in Python with BeautifulSoup
-How to extract paragraph from a website and save it as a text file?
-Extract all the URLs from the webpage Using Python
-How to Scrape Nested Tags using BeautifulSoup?
-Extract all the URLs that are nested within <li> tags using BeautifulSoup
-Clean Web Scraping Data Using clean-text in Python
-Fetching Web Pages
-GET and POST Requests Using Python
-BeautifulSoup - Scraping Paragraphs from HTML
-HTTP Request Methods
-GET method - Python requests
-POST method - Python requests
-PUT method - Python requests
-DELETE method- Python requests
-HEAD method - Python requests
-PATCH method - Python requests
-Searching and Extract for specific tags Beautifulsoup
-Python BeautifulSoup - find all class
-BeautifulSoup - Search by text inside a tag
-Scrape Google Search Results using Python BeautifulSoup
-Get tag name using Beautifulsoup in Python
-Extracting an attribute value with beautifulsoup in Python
-BeautifulSoup - Modifying the tree
-Find the text of the given tag using BeautifulSoup
-Remove spaces from a string in Python
-Understanding Character Encoding
-XML parsing in Python
-Python - XML to JSON
-Scrapy Basics
-Scrapy - Command Line Tools
-Scrapy - Item Loaders
-Scrapy - Item Pipeline
-Scrapy - Selectors
-Scrapy - Shell
-Scrapy - Spiders
-Scrapy - Feed exports
-Scrapy - Link Extractors
-Scrapy - Settings
-Scrapy - Sending an E-mail
-Scrapy - Exceptions
-Selenium Python Basics
-Navigating links using get method - Selenium Python
-Interacting with Webpage - Selenium Python
-Locating single elements in Selenium Python
-Locating multiple elements in Selenium Python
-Locator Strategies - Selenium Python
-Writing Tests using Selenium Python
-Full Stack Development
+Python | Multiple Face Recognition using dlib
+Python - Facial and hand recognition using MediaPipe Holistic
+ML | Face Recognition Using PCA Implementation
+Resize Multiple Images using OpenCV-Python
+Speech Recognition Module Python
+Face recognition using Artificial Intelligence
+Realtime Distance Estimation Using OpenCV - Python
+Emojify using Face Recognition with Machine Learning
+Determine The Face Tilt Using OpenCV - Python
+Traffic Signs Recognition using CNN and Keras in Python
+Image Transformations using OpenCV in Python
+Detect Cat Faces in Real-Time using Python-OpenCV
+Image Recognition with Mobilenet
+Reading an image in OpenCV using Python
+Multiple Color Detection in Real-Time using Python-OpenCV
+Handwritten Digit Recognition using Neural Network
+ML | Implement Face recognition using k-NN with scikit-learn
+How do facial recognition systems work?
+Face Recognition with Local Binary Patterns (LBPs) and OpenCV
+FaceMask Detection using TensorFlow in Python
+DSA to Development
 Course
-Introduction to Web Scraping
+Python | Multiple Face Recognition using dlib
 Last Updated :
-18 Nov, 2024
+03 Jan, 2023
 Summarize
 Comments
 Improve
@@ -373,195 +279,357 @@ Save
 Share
 Report
 Follow
-Web scraping is a technique to fetch data from websites. While surfing on the web, many websites prohibit the user from saving data for personal use. This article will brief you about W
-hat is Web Scraping, Uses, Techniques, Tools, and challenges of Web Scraping.
-Table of Content
-What is Web Scraping?
-Uses of Web Scraping
-Techniques of Web Scraping
-Tool for Web Scraping
-Legalization of Web Scraping
-Challenges to Web Scraping
-Future of Data Scraping
-What is Web Scraping?
-Web Scraping
-is the automation of the data extraction process from websites. One way is to copy-paste the data, which is both tedious and time-consuming manually , So This event is done with the help of web scraping software known as web scrapers. They automatically load and extract data from the websites based on user requirements. These can be custom-built to work for one site or can be configured to work with any website.
-Uses of Web Scraping
-Web scraping finds many uses both at a professional and personal level. Having different needs at different levels, some popular uses of web scraping are:
-Brand Monitoring and Competition Analysis:
-Web Scraping is used to get customer feedback regarding a particular service or product to understand how a customer feels regarding that particular thing. It also extracts competitor data in a structural, usable format.
-Machine Learning:
-Machine Learning is a process of Artificial Intelligence in which the machine is allowed to learn and improve with its experience rather than being explicitly programmed. For that, a large amount of data is required from millions of sites which is extracted through web scraping software.
-Financial Data Analysis:
-Web Scraping is used to keep a record of the stock market in a usable format and hence employ the same for insights.
-Social Media Analysis:
-It is used to extract data from social media sites to gauge customer trends, and how they react to the campaign.
-SEO monitoring:
-Search Engine Optimization is the optimization of the visibility and ranking of a website among different search engines like Google, Yahoo, Bing, etc. Web scraping is used to understand how the ranking of the content over time.
-Techniques of Web Scraping
-There are two ways of extracting data from websites, the Manual extraction technique, and the automated extraction technique.
-Manual Extraction Techniques:
-Manually copy-pasting the site content comes under this technique. Though tedious, time taking and repetitive it is an effective way to scrap data from the sites having good anti-scraping measures like bot detection.
-Automated Extraction Techniques:
-Web scraping software is used to automatically extract data from sites based on user requirement.
-HTML Parsing:
-Parsing means to make something understandable to be analyzing it part by part. To wit, it means to convert the information in one form to another form that is easy to that is easier to work on with.
-HTML parsing
-means taking in the code and extracting relevant information from it based on the user requirement. Mainly executed using JavaScript, the target as the name suggests are HTML pages.
-DOM Parsing:
-The Document Object Model is the official recommendation of the World Wide Web Consortium. It defines an interface that enables a user to modify and update the style, structure, and content of the XML document.
-Web Scraping Software:
-Nowadays, many web scraping tools are available or are custom build on users need to extract required desiring information from millions of websites.
-Tool for Web Scraping
-Web Scraping tools are specifically developed for extracting data from the internet. Also, known as web harvesting tools or data extraction tools, they are useful for anyone trying to collect specific data from websites as they provide the user with structured data extracting data from a number of websites. Some of the most popular Web Scraping tools are:
-Bright Data
-Import.io
-Webhose.io
-Dexi.io
-Scrapinghub
-Legalization of Web Scraping
-The legalization of web scraping is a sensitive topic, depending on how it is used it can either be a boon or a bane. On one hand, web scraping with good bot enables search engines to index web content, price comparison services to save customer money and value. But web scraping can be re-targeted to meet more malicious and abusive ends. Web scraping can be aligned with other forms of malicious automation, named
-“bad bots”
-, which enable other harmful activities like
-denial of service attacks
-,
-competitive data mining
-,
-account hijacking
-,
-data theft
-etc. Legality of Web Scraping is a grey area that tends to develop as time goes on. Although the web scrapers technically increase the speed up data surfing, loading, copying, and pasting web scraping is also the key culprit behind the increases cases of copyright violation, violated terms of use and other activities that are highly disruptive to a company’s business.
-Challenges to Web Scraping
-Besides the challenge of the legality of web scraping, there are also other problems that pose a challenge to web scraping.
-Data Warehousing:
-Data extraction at a scale will generate a large amount of information to be stored. If the data warehousing infrastructure is not properly built then the searching, storing and exporting of this data will become a cumbersome task. Hence, for large-scale data extraction, there needs to be a perfect data warehousing system without any flaws and faults.
-Website Structure Changes:
-Every website periodically updates its user interface to improve its attractiveness and experience. This requires various structural changes too. Since the web scrapers are set up according to the code elements of the website at that time, they require changes too. So, they require changes weekly too to target the correct website for data scraping as incomplete information regarding the website structure will lead to improper scraping of data.
-Anti-Scraping Technologies:
-Some websites use anti-scraping technologies that thwart away any scraping attempt. They apply a dynamic coding algorithm to prevent any bot intervention and use the IP blocking mechanism. It requires a lot of time and money to work around such anti-scraping technologies.
-Quality of Data Extracted:
-Records that do not meet the quality of information required will affect the overall integrity of the data. Making sure that the Data Scraped meets the quality guidelines is a difficult task as it needs to be done in real-time.
-Future of Data Scraping
-As there are some challenges and opportunities for data scraping, it can be fairly deemed that the unintended data-scraping practitioners are prone to create a moral hazard where they target the companies and retrieve their data. However, since we are on the verge of data transformation, data-scraping in combination with big data can provide the company’s market intelligence and help them identify critical trends and patterns and identify the best opportunities and solutions. Hence, it won’t be wrong to say that Data scraping can be upgraded to the better soon.
+This article aims to quickly build a Python face recognition program to easily train multiple images per person and get started with recognizing known faces in an image.
+In this article, the code uses
+ageitgey’s face_recognition API
+for Python. This API is built using
+dlib’s face recognition algorithms
+and it allows the user to easily implement face detection, face recognition and even real-time face tracking in your projects or from the command line.
+Library Installation:
+At first, make sure the required libraries are installed on your computer.
+pip install face_recognition Scikit-learn dlib docopt
+If you want dlib to use
+CUDA
+on GPU, make sure
+CUDA
+and
+cuDNN
+are installed correctly then install dlib using pip. For detailed instructions for installation on different platforms, check out face_recognition’s
+Installation Guide
+.
+Now, create a directory with the training images for each person in the below format. Make sure that you’ve enough training images (at least 5 for each person) otherwise
+Support Vector Classifier (SVC)
+(that is used in this program – produces meaningless results on very small datasets.
+File structure:
+face_recognize.py
+test_image.jpg
+train_dir/
+    person_1/
+        person_1_face-1.jpg
+        person_1_face-2.jpg
+        .
+        .
+        person_1_face-n.jpg
+    person_2/
+        person_2_face-1.jpg
+        person_2_face-2.jpg
+        .
+        .
+        person_2_face-n.jpg
+    .
+    .
+    person_n/
+        person_n_face-1.jpg
+        person_n_face-2.jpg
+        .
+        .
+        person_n_face-n.jpg
+Face Encoding:
+The face_recognition API generates face encodings for the face found in the images. A face encoding is basically a way to represent the face using a set of
+128
+computer-generated measurements. Two different pictures of the same person would have similar encoding and two different people would have totally different encoding.
+After all the face encodings are generated, Support Vector Classifier (SVC) with scikit-learn is trained on the face encodings along with their labels from all the known faces in the training directory. Finally, the API detects all the faces in the test image you provide and the trained SVC predicts all the known faces in the test image.
+Code : To recognize multiple faces.
+"""
+Usage:
+face_recognize.py -d <train_dir> -i <test_image>
+Options:
+-h, --help                     Show this help
+-d, --train_dir =<train_dir>   Directory with
+images for training
+-i, --test_image =<test_image> Test image
+"""
+# importing libraries
+import
+face_recognition
+import
+docopt
+from
+sklearn
+import
+svm
+import
+os
+def
+face_recognize(
+dir
+, test):
+# Training the SVC classifier
+# The training data would be all the
+# face encodings from all the known
+# images and the labels are their names
+encodings
+=
+[]
+names
+=
+[]
+# Training directory
+if
+dir
+[
+-
+1
+]!
+=
+'/'
+:
+dir
++
+=
+'/'
+train_dir
+=
+os.listdir(
+dir
+)
+# Loop through each person in the training directory
+for
+person
+in
+train_dir:
+pix
+=
+os.listdir(
+dir
++
+person)
+# Loop through each training image for the current person
+for
+person_img
+in
+pix:
+# Get the face encodings for the face in each image file
+face
+=
+face_recognition.load_image_file(
+dir
++
+person
++
+"/"
++
+person_img)
+face_bounding_boxes
+=
+face_recognition.face_locations(face)
+# If training image contains exactly one face
+if
+len
+(face_bounding_boxes)
+=
+=
+1
+:
+face_enc
+=
+face_recognition.face_encodings(face)[
+0
+]
+# Add face encoding for current image
+# with corresponding label (name) to the training data
+encodings.append(face_enc)
+names.append(person)
+else
+:
+print
+(person
++
+"/"
++
+person_img
++
+" can't be used for training"
+)
+# Create and train the SVC classifier
+clf
+=
+svm.SVC(gamma
+=
+'scale'
+)
+clf.fit(encodings, names)
+# Load the test image with unknown faces into a numpy array
+test_image
+=
+face_recognition.load_image_file(test)
+# Find all the faces in the test image using the default HOG-based model
+face_locations
+=
+face_recognition.face_locations(test_image)
+no
+=
+len
+(face_locations)
+print
+(
+"Number of faces detected: "
+, no)
+# Predict all the faces in the test image using the trained classifier
+print
+(
+"Found:"
+)
+for
+i
+in
+range
+(no):
+test_image_enc
+=
+face_recognition.face_encodings(test_image)[i]
+name
+=
+clf.predict([test_image_enc])
+print
+(
+*
+name)
+def
+main():
+args
+=
+docopt.docopt(__doc__)
+train_dir
+=
+args[
+"--train_dir"
+]
+test_image
+=
+args[
+"--test_image"
+]
+face_recognize(train_dir, test_image)
+if
+__name__
+=
+=
+"__main__"
+:
+main()
+How to run it on the terminal:
+python face_recognize.py -d train_dir -i test_image.jpg
+Output:
 Comment
 More info
 Next Article
-What is Web Scraping and How to Use It?
+Python - Facial and hand recognition using MediaPipe Holistic
 A
-raoaditi1947
+anandbaburajan
 Follow
 Improve
 Similar Reads
-Difference between Web Scraping and Web Crawling
-1. Web Scraping : Web Scraping is a technique used to extract a large amount of data from websites and then saving it to the local machine in the form of XML, excel or SQL. The tools used for web scraping are known as web scrapers. On the basis of the requirements given, they can extract the data from any website in a fraction of time. This automat
-2 min read
-6 Misconceptions About Web Scraping
-Web scraping is a technique to retrieve data from websites. Scraping is still somewhat new to most people. And as data science evolves, this practice becomes even more complex and harder to understand. Just like any other thing that seems to be too entangled, web scraping has overgrown with dozens of misconceptions. To help you get a better underst
+OpenCV - Facial Landmarks and Face Detection using dlib and OpenCV
+Content has been removed on Author's request.
+1 min read
+A Complete Guide to Face Detection and Face Recognition in 2024
+Face detection and face recognition have become fundamental technologies in various applications ranging from security systems and mobile authentication to social media tagging and customer analytics. With advancements in artificial intelligence, deep learning, and computer vision, the accuracy and efficiency of these systems have significantly imp
+9 min read
+ML | Implement Face recognition using k-NN with scikit-learn
+k-Nearest Neighbors: k-NN is one of the most basic classification algorithms in machine learning. It belongs to the supervised learning category of machine learning. k-NN is often used in search applications where you are looking for “similar” items. The way we measure similarity is by creating a vector representation of the items, and then compare
 5 min read
-Web Scraping - Legal or Illegal?
-If you're connected with the term 'Web Scraping' anyhow, then you must come across a question - Is Web Scraping legal or illegal? Okay, so let's discuss it. If you look closely, you will find out that in today's era the biggest asset of any business is Data! Even the top giants like Facebook, Amazon, Uber are ruling because of the vast amount of da
-5 min read
-Web Scraping Coronavirus Data into MS Excel
-Prerequisites: Web Scraping using BeautifulSoup Coronavirus cases are increasing rapidly worldwide. This article will guide you on how to web scrape Coronavirus data and into Ms-excel. What is Web Scraping? If you’ve ever copy and pasted information from a website, you’ve performed the same function as any web scraper, only on a microscopic, manual
-5 min read
-Web Scraping using cURL in PHP
-We all have tried getting data from a website in many ways. In this article, we will learn how to web scrape using bots to extract content and data from a website. We will use PHP cURL to scrape a web page, it looks like a typo from leaving caps lock on, but that’s really how you write it. cURL is the system used to make HTTP requests with PHP. It
-2 min read
-Oxylabs- The Best Proxy and Web Scraping Tool
-The moment you require to extract public data at scale and also an immediate proxy service provider that is both authentic and credible, Oxylabs has got you covered. It is one of the industry-leading web-scraping and proxy service tools with a 4.7 rating on Trustpilot and 4.5 on G2. Moreover, with 102M IPs in 195 countries globally, it has become t
+ML | Face Recognition Using PCA Implementation
+Face Recognition is one of the most popular and controversial tasks of computer vision. One of the most important milestones is achieved using This approach was first developed by Sirovich and Kirby in 1987 and first used by Turk and Alex Pentland in face classification in 1991. It is easy to implement and thus used in many early face recognition a
 6 min read
-How to do web scraping using selenium and google colab?
-Selenium is used for testing, web automation tasks, web scraping tasks etc. Its WebDriver component allows user actions to perform tasks in the web browser, while its headless mode performs automation tasks in the background. Google Colaboratory in short Google Colab is a cloud-based platform provided by Google to perform Python tasks, in an enviro
-6 min read
-10 Best Web Scraping Frameworks for Data Extraction
-Web scraping, as its name implies, is the process of extracting information from websites. This technique has been increasingly powerful in the year of big data. Regardless of whether you will be employed as a researcher, developer, or business analyst, web scraping can become useful and help you collect data for market analysis, research purposes,
-6 min read
-What is Web Scraping and How to Use It?
-Suppose you want some information from a website. Let’s say a paragraph on Donald Trump! What do you do? Well, you can copy and paste the information from Wikipedia into your file. But what if you want to get large amounts of information from a website as quickly as possible? Such as large amounts of data from a website to train a Machine Learning
+Face recognition using Artificial Intelligence
+The current technology amazes people with amazing innovations that not only make life simple but also bearable. Face recognition has over time proven to be the least intrusive and fastest form of biometric verification. The software uses deep learning algorithms to compare a live captured image to the stored face print to verify one's identity. Ima
+15+ min read
+Emojify using Face Recognition with Machine Learning
+In this article, we will learn how to implement a modification app that will show an emoji of expression which resembles the expression on your face. This is a fun project based on computer vision in which we use an image classification model in reality to classify different expressions of a person. This project will be implemented in two parts: Bu
 7 min read
-Best Python Web Scraping Libraries in 2024
-Python offers several powerful libraries for web scraping, each with its strengths and suitability for different tasks. Whether you're scraping data for research, monitoring, or automation, choosing the right library can significantly affect your productivity and the efficiency of your code. This article explores the Top Python web scraping librari
-6 min read
-What is Web Scraping in Node.js ?
-Web scraping is the automated process of extracting data from websites. It involves using a script or a program to collect information from web pages, which can then be stored or used for various purposes such as data analysis, research, or application development. In Node.js, web scraping is commonly performed using libraries and tools that facili
-3 min read
-Which packages in R can we use to do web scraping?
-In R, several packages can be used for web scraping, with rvest, httr, and xml2 being among the most popular. These packages allow users to download and parse web pages, extract specific data, and handle various aspects of web scraping effectively. Each of these packages has unique features that make them suitable for different types of web scrapin
+Yawn Detection using OpenCV and Dlib
+In this article, we'll cover all the steps required to build a Yawn detection program using OpenCV and dlib packages. But before doing this project should be familiar with the basics of OpenCV and you should also know how to use face detection and landmark detection using dlib module. Requirements: Dlib library installed Dlib face landmark '.dat' f
 2 min read
-Top Web Scraping Browsers to Extract Online Data
-Web scraping has grown in popularity as a method for businesses and individuals to obtain structured data from the internet. Businesses scrape data to stay competitive, and hence a strong data extraction tool has become an essential part of businesses for customer retention. Product information, text, images, customer reviews, and pricing compariso
+Eye blink detection with OpenCV, Python, and dlib
+In this article, we are going to see how to detect eye blink using OpenCV, Python, and dlib. This is a fairly simple task and it requires you to have a basic understanding of OpenCV and how to implement face landmark detection programs using OpenCV and dlib, since we'll be using that as the base for today's project. Stepwise ImplementationStep 1: I
+6 min read
+Face Recognition with Local Binary Patterns (LBPs) and OpenCV
+In this article, Face Recognition with Local Binary Patterns (LBPs) and OpenCV is discussed. Let's start with understanding the logic behind performing face recognition using LBPs. A beginner-friendly explanation of LBPs is described below. Local Binary Patterns (LBP)LBP stands for Local Binary Patterns. It's a technique used to describe the textur
+13 min read
+Dataset for Face Recognition
+Face recognition is a rapidly evolving field within computer vision, with applications spanning security, social media, and personalized user experiences. A key component of developing effective face recognition systems is access to high-quality datasets. These datasets provide the foundation for training machine learning models, evaluating their p
 5 min read
-10 Best Web Scraping Tools
-In today's vast world of data and decision-making, web scraping has become an invaluable technique for extracting information from websites. Whether you're a data enthusiast, a researcher, or a business professional, having the right web scraping tools at your end can greatly enhance your data-gathering capabilities. Before moving ahead in this art
-11 min read
-Difference Between Web 1.0, Web 2.0, and Web 3.0
-Web 1.0 was all about fetching, and reading information. Web 2.0 is all about reading, writing, creating, and interacting with the end user. It was famously called the participative social web. Web 3.0 is the third generation of the World Wide Web, and is a vision of a decentralized web which is currently a work in progress. It is all about reading
+Face detection using Cascade Classifier using OpenCV-Python
+In this article, we are going to see how to detect faces using a cascade classifier in OpenCV Python. Face detection has much significance in different fields of today's world. It is a significant step in several applications, face recognition (also used as biometrics), photography (for auto-focus on the face), face analysis (age, gender, emotion r
+4 min read
+Face Detection using Python and OpenCV with webcam
+OpenCV is a Library which is used to carry out image processing using programming languages like python. This project utilizes OpenCV Library to make a Real-Time Face Detection using your webcam as a primary camera.Following are the requirements for it:- Python 2.7OpenCVNumpyHaar Cascade Frontal face classifiers Approach/Algorithms used: This proje
+4 min read
+Face and Hand Landmarks Detection using Python - Mediapipe, OpenCV
+In this article, we will use mediapipe python library to detect face and hand landmarks. We will be using a Holistic model from mediapipe solutions to detect all the face and hand landmarks. We will be also seeing how we can access different landmarks of the face and hands which can be used for different computer vision applications such as sign la
+4 min read
+Determine The Face Tilt Using OpenCV - Python
+In this article, we are going to see how to determine the face tilt using OpenCV in Python. To achieve this we will be using a popular computer vision library opencv-python. In this program with the help of the OpenCV library, we will detect faces in a live stream from a webcam or a video file and subsequently also determine the angle by how much t
+4 min read
+Python - Facial and hand recognition using MediaPipe Holistic
+What is MediaPipe: Object Detection is one of the leading and most popular use cases in the domain of computer vision. Several object detection models are used worldwide for their particular use case applications. Many of these models have been used as an independent solution to a single computer vision task with its own fixed application. Combinin
+4 min read
+Traffic Signs Recognition using CNN and Keras in Python
+We always come across incidents of accidents where drivers' Overspeed or lack of vision leads to major accidents. In winter, the risk of road accidents has a 40-50% increase because of the traffic signs' lack of visibility. So here in this article, we will be implementing Traffic Sign recognition using a Convolutional Neural Network. It will be ver
+6 min read
+Sign Language Recognition System using TensorFlow in Python
+The first step of any machine learning problem is finding the appropriate dataset. For Sign language recognition let's use the Sign Language MNIST dataset. It has images of signs corresponding to each alphabet in the English language. Since the sign language of J and Z requires motion, those two classes are not available in the dataset. Importing L
+4 min read
+Face Detection in Flutter using Firebase ML Kit
+Face detection is a technique by which we can locate the human faces in the image given. Face detection is used in many places nowadays, especially websites hosting images like Picasa, Photobucket, and Facebook. The automatic tagging feature adds a new dimension to sharing pictures among the people who are in the picture and also gives the idea to
+5 min read
+How to create a Face Detection Android App using Machine Learning KIT on Firebase
+Pre-requisites: Firebase Machine Learning kitAdding Firebase to Android AppFirebase ML KIT aims to make machine learning more accessible, by providing a range of pre-trained models that can use in the iOS and Android apps. Let's use ML Kit’s Face Detection API which will identify faces in photos. By the end of this article, we’ll have an app that c
+9 min read
+Person and Face Detection using Intel OpenVINO toolkit
+The OpenVINO Toolkit by Intel is a robust platform aimed at assisting developers in speeding up the implementation of deep learning models for computer vision activities. It enhances models for Intel hardware, such as CPUs, GPUs, VPUs, and FPGAs, enabling effective inference on edge devices. The toolkit is compatible with different deep learning fr
 8 min read
-Data Scraping for Android Apps using google-play-scraper in Node.js
-The most commonly existing method for scraping the web is the one in which we use selenium & beautifulsoup in Python. Even though it helps us in a variety of tasks, if we are specifically looking to extract information about an already existing android app on the google play store for research purposes or even for self-use, there's another way
-5 min read
-YouTube Data Scraping, Preprocessing and Analysis using Python
-YouTube is one of the oldest and most popular video distribution platforms in the world. We can't even imagine the video content available here. It has billion of users and viewers, which keeps on increasing every passing minute. Since its origins, YouTube and its content have transformed very much. Now we have SHORTS, likes, and many more features
-5 min read
-Scraping Text Inside Both a div and span Tag Using rvest
-HTML tags are used to give structure to the web page, HTML elements are the one that tells the browser how to display the content. Those elements contain many different types of tags. HTML tags are composed of an opening tag, content, and a closing tag. The Opening tag tells it is the beginning of an element and the closing tag tells that the struc
-9 min read
-Web 4.0 - Intelligent Web
-Web 4.0, also known as the "Intelligent Web," is the next evolutionary stage in the development of the Internet. It is characterized by a shift from traditional static web pages to more intelligent, dynamic, and interactive web applications. Web 4.0 represents a significant step forward in the evolution of the Internet and the way we interact with
-6 min read
-Difference between Web Browser and Web Server
-For International Network communication, we require a web browser and web servers. Web browsers and servers play an important role in establishing the connection. The client sends requests for web documents or services. The message that goes from the web browser to the web server is known as an HTTP request. When the web server receives the request
-3 min read
-How to choose Web Hosting Server and Web Domain ?
-“Today it’s not about ‘get the traffic’ — it’s about ‘get the targeted and relevant traffic.’” – Adam Audette When we want to host business online then the things that come in mind are Which Domain name to buy? Which domain is good? What are its features? What is hosting? What is it’s use? And various other things. So, here are the answers to all t
+Python - Face detection and sending notification
+Nowadays python has become one of the most popular languages as well as favorite programming language among developers. The simplified syntax and pattern of this language make the presence of this language in the trending list. The biggest strength of Python is a huge collection of standard library which can be used for the following: Machine Learn
 4 min read
-Difference between Web Designer and Web Developer
-Web Designer: A web designer is a person that makes the website looks good. They mainly refer to the splendiferous portion of the website as well as its usability. The main responsibility of Web Designers is to focus on the style and overall feel of the website using different software like Photoshop, Corel Draw, etc to make the website more attrac
-5 min read
-What are the differences between web-garden and a web-farm in JavaScript?
-Web Garden: A web garden is a web hosting system in which an application pool can be configured while also specifying the number of worker processes for that pool. (An application Pool is the container of worker process) So, a web garden is basically used while hosting multiple processes on a single web server. Web Farm: A web farm is a web hosting
+Face Alignment with OpenCV and Python
+Face Alignment is the technique in which the image of the person is rotated according to the angle of the eyes. This technique is actually used as a part of the pipeline process in which facial detection is done using the image. This implementation of face alignment can be easily done with the help of python module cv2(computer vision). It has so m
+6 min read
+Opencv Python program for Face Detection
+The objective of the program given is to detect object of interest(face) in real time and to keep tracking of the same object.This is a simple example of how to detect face in Python. You can try to use training samples of any other object of your choice to be detected by training the classifier on required objects. Here is the steps to download th
 2 min read
-Differences between Web Services and Web API
-Web Services: A Web services are any bit of services that makes it accessible over the Internet and normalizes its correspondence through XML encoding. A customer conjures web services by sending a solicitation (for the most part as an XML message), and the services send back an XML response. Web services summon communication over a network, with H
+Human Activity Recognition - Using Deep Learning Model
+Human activity recognition using smartphone sensors like accelerometer is one of the hectic topics of research. HAR is one of the time series classification problem. In this project various machine learning and deep learning models have been worked out to get the best final result. In the same sequence, we can use LSTM (long short term memory) mode
+6 min read
+Flower Recognition Using Convolutional Neural Network
+In this article, we will use Convolutional Neural Network to solve a Supervised Image Classification problem of recognizing the flower types - rose, chamomile, dandelion, sunflower, & tulip. Understanding the concept of a Convolutional Neural Network refers to this. Once, understand the concept of CNN we can start with the project. Steps to be
+4 min read
+Image Recognition using TensorFlow
+In this article, we'll create an image recognition model using TensorFlow and Keras. TensorFlow is a robust deep learning framework, and Keras is a high-level API(Application Programming Interface) that provides a modular, easy-to-use, and organized interface to solve real-life deep learning problems. Image Recognition: In Image recognition, we inp
+6 min read
+Optical Character Recognition using TensorFlow
+Optical Character Recognition (OCR) stands as a transformative force, bridging the gap between the physical and digital worlds. OCR enables machines to interpret and convert printed or handwritten text into machine-readable data, revolutionizing how we interact with information. This article explores the powerful capabilities of OCR and presents a
+8 min read
+Project Idea | (Dynamic Hand Gesture Recognition using neural network)
+Introduction Hand gesture recognition system is used for interfacing between computer and human using hand gesture. We wish to make a windows-based application for live motion gesture recognition using webcam input in C++. This project is a combination of live motion detection and gesture identification. This application uses the webcam to detect g
 3 min read
-Progressive Web App - A Combination of Native and Web App
-Web is a wonderful platform. Its omnipresent across devices and operating systems, its user-centered security model, and the fact that neither its specification nor its implementation is maintained by a single company or organization make the web a unique and promising platform to develop software or applications on. In addition to that with its in
-9 min read
-How Web Works - Web Application Architecture for Beginners
-For many decades we are browsing our favorite websites on the internet and getting a quick response whatever we want... but do you ever try to know how each part of the application works together and how is the request being processed behind the scene? If you're a little bit familiar with tech then you may have a general and a common answer that yo
+Optical Character Recognition (Ocr) Using R
+OCR transforms text images into machine-readable formats. With applications ranging from receipts to license plates, we explore the process, syntax, and examples, demonstrating its versatility. In this tutorial, we will learn to perform Optical Character Recognition in R programming language using the Tesseract and Magick libraries. Optical Charact
+5 min read
+Automatic Speech Recognition using Whisper
+Automatic Speech Recognition (ASR) can be simplified as artificial intelligence transforming spoken language into text. Its historical journey dates back to a time when developing ASR posed significant challenges. Addressing diverse factors such as variations in voices, accents, background noise, and speech patterns proved to be formidable obstacle
 10 min read
-Difference between Web Browser and Web Page
-1. Web Browser :Web browser, as name suggest, is basically a software application that runs on computer and responds to request made by other computers on network. It also loads website much faster and use the latest WWW standards for displaying websites.Example : Firefox, Netscape, Safari, Explorer, etc.2. Web Page : Web Page, as name suggests, is
-2 min read
-Difference between Web Hosting and Web Publishing
-Web hosting and web publishing are key parts of getting a website online. Web hosting provides the space and resources to store your website, while web publishing is about creating and managing the content you put on your site. Knowing the difference helps you build and maintain your website effectively. What is Web Hosting?Web Hosting, as the name
-4 min read
-Difference between Web Server and Web Host
-A web server is a computer that stores your website and sends it to people when they visit. A web host is a company that provides the space and support needed to keep your website online. Simply put, the web server is the machine that delivers your website, and the web host is the service that makes sure your website is available on the internet. W
-3 min read
-10 Web Development and Web Design Facts That You Should Know
-Web Development has grabbed a lot of attention in today's date. But the question arises, why has it gained such a massive audience in the last decade. So Here's the answer: Web development is the basic building and maintenance of websites; it’s the whole procedure that happens to make a website look great, responsive, work smooth, and performing we
-6 min read
 Article Tags :
 AI-ML-DS
-GBlog
-PHP
-Web Scraping
-Web Technologies
-Listicles
+Computer Vision
+Technical Scripter
+AI-ML-DS With Python
+Python-OpenCV
+Technical Scripter 2019
 +2 More
 Like
-303k+ interested Geeks
-Full Stack Development with React & Node JS - Live
+344k+ interested Geeks
+Complete Machine Learning & Data Science Program
 Explore
-12k+ interested Geeks
-Complete Django Web Development Course  - Basics to Advance
+227k+ interested Geeks
+Free Python Course with Certificate - Updated [August 2024]
 Explore
-7k+ interested Geeks
-Complete Bootstrap Course For Beginners [Online]
+230k+ interested Geeks
+Python Full Course Online - Complete Beginner to Advanced
 Explore
 Explore More
-Corporate & Communications Address:- A-143, 9th Floor, Sovereign Corporate Tower, Sector- 136, Noida, Uttar Pradesh (201305) | Registered Address:- K 061, Tower K, Gulshan Vivante Apartment, Sector 137, Noida, Gautam Buddh Nagar, Uttar Pradesh, 201305
+Corporate & Communications Address:- A-143, 7th Floor, Sovereign Corporate Tower, Sector- 136, Noida, Uttar Pradesh (201305) | Registered Address:- K 061, Tower K, Gulshan Vivante Apartment, Sector 137, Noida, Gautam Buddh Nagar, Uttar Pradesh, 201305
 Company
 About Us
 Legal
@@ -739,6 +807,7 @@ Complete Machine Learning & Data Science Program - [LIVE]
 Data Analytics Training using Excel, SQL, Python & PowerBI - [LIVE]
 Data Science Training Program - [LIVE]
 Mastering Generative AI and ChatGPT
+Data Science Course with IBM Certification
 Programming Languages
 C Programming with Data Structures
 C++ Programming Course
