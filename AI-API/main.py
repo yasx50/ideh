@@ -61,17 +61,18 @@ def process_batch_with_huggingface(batch):
         return "Error in processing batch."
 
 # Process a batch using Groq API
-def process_batch_with_groq(batch):
+def process_batch_with_groq(batch,prompt):
     try:
+        # prompt = "Try to keep things simple, No Code just bullet points, and only give output, dont write things such as'ans in buttlet pts as you asked like that'"
         print("[INFO] Processing batch with Groq API...")
         chat_completion = groq_client.chat.completions.create(
             messages=[
                 {
                     "role": "user",
-                    "content": batch,
+                    "content": prompt+batch,
                 }
             ],
-            model="llama3-70b-8192",  # Replace with Groq-supported model
+            model="llama-3.2-1b-preview",  # Replace with Groq-supported model
         )
         return chat_completion.choices[0].message.content
     except Exception as e:
@@ -86,6 +87,7 @@ def process_url():
         # Parse the input
         input_data = request.json
         url = input_data.get("url")
+        prompt = input_data.get("prompt")
         
         if not url:
             print("[ERROR] URL is missing in the request.")
@@ -103,19 +105,19 @@ def process_url():
         scraped_text = soup.get_text(separator="\n", strip=True)
 
         print("[INFO] Scraping complete. Saving content to file...")
-        # Save the scraped content to a file
-        file_path = "scraped_content.txt"
-        with open(file_path, "w", encoding="utf-8") as file:
-            file.write(scraped_text)
+        # # Save the scraped content to a file
+        # file_path = "scraped_content.txt"
+        # with open(file_path, "w", encoding="utf-8") as file:
+        #     file.write(scraped_text)
 
-        # Load the scraped content from the file
-        with open(file_path, "r", encoding="utf-8") as file:
-            content = file.read()
+        # # Load the scraped content from the file
+        # with open(file_path, "r", encoding="utf-8") as file:
+        #     content = file.read()
 
         print("[INFO] Content loaded. Splitting into batches for processing...")
         # Split the content into batches (e.g., max 4000 characters per batch)
         max_batch_length = 4000  # Adjust based on the model's token limit
-        batches = split_into_batches(content, max_batch_length)
+        batches = split_into_batches(scraped_text, max_batch_length)
 
         print("[INFO] Starting batch processing...")
         # Unified result to store combined outputs
@@ -123,17 +125,17 @@ def process_url():
 
         for i, batch in enumerate(batches):
             print(f"[INFO] Processing batch {i + 1} of {len(batches)}...")
-            groq_response = process_batch_with_groq(batch)
+            groq_response = process_batch_with_groq(batch, prompt)
             # Combine the result into a unified string (or other format if required)
-            unified_result += f"\nBatch {i + 1} Response:\n{groq_response}\n"
+            unified_result += f"\n{groq_response}\n"
 
             print(f"[INFO] Batch {i + 1} processed.")
 
         # Save the unified result to a file
-        print("[INFO] Saving result to results.json...")
-        results_file = "results.json"
-        with open(results_file, "w", encoding="utf-8") as file:
-            json.dump({"final_result": unified_result}, file, indent=4)
+        # print("[INFO] Saving result to results.json...")
+        # results_file = "results.json"
+        # with open(results_file, "w", encoding="utf-8") as file:
+        #     json.dump({"final_result": unified_result}, file, indent=4)
 
         print("[INFO] Processing complete. Sending response.")
         # Return the unified processed data in JSON format
