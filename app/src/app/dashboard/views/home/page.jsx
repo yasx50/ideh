@@ -11,231 +11,194 @@ const UserHomePage = () => {
     setDarkMode(!darkMode);
   };
 
-  const darkTheme = {
-    background: "#0D1B2A",
-    text: "#E0E1DD",
-    accent: "#00B4D8",
-    secondaryAccent: "#FF6F61",
-    inputBg: "#1B263B",
-    border: "#00B4D8",
+  const theme = {
+    background: darkMode ? "#000000" : "#F4F4F9", // Dark black for dark mode
+    text: darkMode ? "#E0E0E0" : "#1B263B", // Light gray text for dark mode
+    accent: darkMode ? "#1DB954" : "#0096C7", // Green for accent in dark mode
+    secondaryAccent: darkMode ? "#FF4081" : "#FF6F61", // Pink for highlights
+    inputBg: darkMode ? "#121212" : "#FFFFFF", // Dark gray for inputs
+    border: darkMode ? "#1DB954" : "#0096C7", // Green border for inputs
   };
-
-  const lightTheme = {
-    background: "#F4F4F9",
-    text: "#1B263B",
-    accent: "#0096C7",
-    secondaryAccent: "#FF6F61",
-    inputBg: "#FFFFFF",
-    border: "#0096C7",
-  };
-
-  const theme = darkMode ? darkTheme : lightTheme;
 
   return (
     <motion.div
-      className="min-h-screen font-sans"
+      className="min-h-screen font-sans flex"
       style={{ backgroundColor: theme.background, color: theme.text }}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
     >
-      {/* Navbar */}
-      <motion.nav
-        className="p-4 shadow-lg"
-        style={{ backgroundColor: darkMode ? "#16213E" : "#E0E1DD" }}
-        initial={{ y: -50, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
+      {/* Sidebar */}
+      <motion.aside
+        className="w-1/4 p-4 shadow-lg flex flex-col items-center"
+        style={{ backgroundColor: darkMode ? "#121212" : "#E0E1DD" }}
+        initial={{ x: -100, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="container mx-auto flex justify-between items-center">
+        <img
+          src="https://via.placeholder.com/100"
+          alt="User Avatar"
+          className="rounded-full mb-4 border-2"
+          style={{ borderColor: theme.accent }}
+        />
+        <h2 className="text-lg font-bold mb-4" style={{ color: theme.accent }}>
+          User123
+        </h2>
+        <div className="w-full text-left">
+          <h3 className="text-lg font-medium mb-2" style={{ color: theme.text }}>
+            History
+          </h3>
+          <ul>
+            <li
+              className="mb-2 border rounded-md h-10 flex items-center justify-center"
+              style={{
+                color: theme.text,
+                backgroundColor: theme.inputBg,
+                borderColor: theme.border,
+              }}
+            >
+              Search 1
+            </li>
+            <li
+              className="mb-2 border rounded-md h-10 flex items-center justify-center"
+              style={{
+                color: theme.text,
+                backgroundColor: theme.inputBg,
+                borderColor: theme.border,
+              }}
+            >
+              Search 2
+            </li>
+            <li
+              className="mb-2 border rounded-md h-10 flex items-center justify-center"
+              style={{
+                color: theme.text,
+                backgroundColor: theme.inputBg,
+                borderColor: theme.border,
+              }}
+            >
+              Search 3
+            </li>
+          </ul>
+        </div>
+      </motion.aside>
+
+      {/* Main Section */}
+      <motion.main
+        className="w-3/4 p-8"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+      >
+        <header className="flex justify-between items-center mb-8">
           <h1
-            className="text-xl font-bold"
+            className="text-2xl font-bold"
             style={{ color: theme.accent }}
           >
-            Oxylabs
+            Welcome to Our Beta v1
           </h1>
-          <div className="flex items-center space-x-6">
-            <span
-              className="text-gray-300"
-              style={{ color: darkMode ? theme.text : "#1B263B" }}
-            >
-              Hello, User123
-            </span>
-            {/* <button
-              className="px-4 py-2 rounded-lg"
-              style={{
-                backgroundColor: theme.secondaryAccent,
-                color: theme.inputBg,
-              }}
-            >a
-              Logout
-            </button> */}
-            <button
-              onClick={toggleTheme}
-              className="flex items-center space-x-2 px-4 py-2 rounded-lg font-medium"
+          <button
+            onClick={toggleTheme}
+            className="flex items-center px-4 py-2 rounded-lg font-medium"
+            style={{ backgroundColor: theme.accent, color: theme.inputBg }}
+          >
+            {darkMode ? (
+              <>
+                <FaSun className="text-lg" />
+              </>
+            ) : (
+              <>
+                <FaMoon className="text-lg" />
+              </>
+            )}
+          </button>
+        </header>
+
+        <section className="mb-8">
+          <p className="text-lg mb-4" style={{ color: theme.text }}>
+            We're thrilled to present our Beta v1—a cutting-edge tool for web
+            scraping. This version is designed to help you collect the data you
+            need seamlessly and efficiently.
+          </p>
+          <p className="text-lg" style={{ color: theme.text }}>
+            Start exploring today, and help us make this the best tool for data
+            extraction!
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-bold mb-4" style={{ color: theme.text }}>
+            Start Your Scraping Journey
+          </h2>
+          <form>
+            <div className="mb-4">
+              <label
+                htmlFor="websiteUrl"
+                className="block text-sm font-medium mb-2"
+                style={{ color: theme.text }}
+              >
+                Website URL
+              </label>
+              <input
+                type="url"
+                id="websiteUrl"
+                placeholder="https://example.com"
+                className="w-full px-4 py-3 rounded-lg focus:ring focus:outline-none"
+                style={{
+                  backgroundColor: theme.inputBg,
+                  color: theme.text,
+                  border: `2px solid ${theme.border}`,
+                }}
+              />
+            </div>
+            <div className="mb-4">
+              <label
+                htmlFor="prompt"
+                className="block text-sm font-medium mb-2"
+                style={{ color: theme.text }}
+              >
+                What do you want to scrape?
+              </label>
+              <textarea
+                id="prompt"
+                placeholder="Enter your requirements here..."
+                rows="4"
+                className="w-full px-4 py-3 rounded-lg focus:ring focus:outline-none"
+                style={{
+                  backgroundColor: theme.inputBg,
+                  color: theme.text,
+                  border: `2px solid ${theme.border}`,
+                }}
+              ></textarea>
+            </div>
+            <motion.button
+              type="submit"
+              className="px-6 py-3 rounded-lg text-lg"
               style={{
                 backgroundColor: theme.accent,
                 color: theme.inputBg,
               }}
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.2 }}
             >
-              {darkMode ? (
-                <>
-                  <FaSun className="text-lg" />
-                  
-                </>
-              ) : (
-                <>
-                  <FaMoon className="text-lg" />
-                 
-                </>
-              )}
-            </button>
-          </div>
-        </div>
-      </motion.nav>
-
-      {/* Main Section */}
-      <header className="py-16">
-        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
-          {/* Left Section: Text */}
-          <motion.div
-            className="w-full md:w-1/2 text-left md:pr-8"
-            initial={{ opacity: 0, x: -100 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            <h1
-              className="text-4xl md:text-5xl font-bold"
-              style={{ color: theme.accent }}
+              Scrape Now
+            </motion.button>
+            <motion.button
+              type="submit"
+              className="px-6 py-3 ml-4 rounded-lg text-lg"
+              style={{
+                backgroundColor: theme.secondaryAccent,
+                color: theme.inputBg,
+              }}
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.2 }}
             >
-              Welcome to Our Beta v1
-            </h1>
-            <p className="text-lg mt-4" style={{ color: theme.text }}>
-              We're thrilled to present our Beta v1—a cutting-edge tool for web
-              scraping. This version is designed to help you collect the data
-              you need seamlessly and efficiently.
-            </p>
-            <p className="text-lg mt-2" style={{ color: theme.text }}>
-              Whether you're a researcher, business analyst, or developer, this
-              platform is built to adapt to your needs. Your feedback is vital
-              to us as we shape the future of our product.
-            </p>
-            <p
-              className="text-lg mt-2 font-medium"
-              style={{ color: theme.secondaryAccent }}
-            >
-              Start exploring today, and help us make this the best tool for
-              data extraction!
-            </p>
-          </motion.div>
-
-          {/* Right Section: Input Form */}
-          <motion.div
-            className="w-full md:w-1/2 p-8 rounded-lg shadow-lg"
-            style={{ backgroundColor: theme.inputBg }}
-            initial={{ opacity: 0, x: 100 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2
-              className="text-2xl font-bold mb-4"
-              style={{ color: theme.text }}
-            >
-              Start Your Scraping Journey
-            </h2>
-            <form>
-              <div className="mb-4">
-                <label
-                  htmlFor="websiteUrl"
-                  className="block text-sm font-medium mb-2"
-                  style={{ color: theme.text }}
-                >
-                  Website URL
-                </label>
-                <input
-                  type="url"
-                  id="websiteUrl"
-                  placeholder="https://example.com"
-                  className="w-full px-4 py-3 rounded-lg focus:ring focus:outline-none"
-                  style={{
-                    backgroundColor: theme.inputBg,
-                    color: theme.text,
-                    border: `2px solid ${theme.border}`,
-                  }}
-                />
-              </div>
-              <div className="mb-4">
-                <label
-                  htmlFor="prompt"
-                  className="block text-sm font-medium mb-2"
-                  style={{ color: theme.text }}
-                >
-                  What do you want to scrape?
-                </label>
-                <textarea
-                  id="prompt"
-                  placeholder="Enter your requirements here..."
-                  rows="4"
-                  className="w-full px-4 py-3 rounded-lg focus:ring focus:outline-none"
-                  style={{
-                    backgroundColor: theme.inputBg,
-                    color: theme.text,
-                    border: `2px solid ${theme.border}`,
-                  }}
-                ></textarea>
-              </div>
-              <motion.button
-                type="submit"
-                className="w-full px-6 py-3 rounded-lg text-lg"
-                style={{
-                  backgroundColor: theme.accent,
-                  color: theme.inputBg,
-                }}
-                whileHover={{ scale: 1.05 }}
-                transition={{ duration: 0.2 }}
-              >
-                Scrape Now
-              </motion.button>
-            </form>
-          </motion.div>
-        </div>
-      </header>
-
-      {/* Footer */}
-      <motion.footer
-        className="py-8"
-        style={{ backgroundColor: theme.inputBg, color: theme.text }}
-        initial={{ y: 50, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5 }}
-      >
-        <div className="container mx-auto text-center">
-          <p>&copy; {new Date().getFullYear()} Oxylabs. All Rights Reserved.</p>
-          <div className="flex justify-center space-x-6 mt-4">
-            <a
-              href="#"
-              className="hover:underline"
-              style={{ color: theme.accent }}
-            >
-              Facebook
-            </a>
-            <a
-              href="#"
-              className="hover:underline"
-              style={{ color: theme.accent }}
-            >
-              Twitter
-            </a>
-            <a
-              href="#"
-              className="hover:underline"
-              style={{ color: theme.accent }}
-            >
-              LinkedIn
-            </a>
-          </div>
-        </div>
-      </motion.footer>
+              Download Response
+            </motion.button>
+          </form>
+        </section>
+      </motion.main>
     </motion.div>
   );
 };
