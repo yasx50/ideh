@@ -1,3 +1,4 @@
+[![wakatime](https://wakatime.com/badge/github/Pallav2905-py/ideh.svg)](https://wakatime.com/badge/github/Pallav2905-py/ideh)
 Here’s the `README.md` file based on your requirements:
 
 ---
