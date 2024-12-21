@@ -69,7 +69,7 @@ def process_batch_with_groq(batch,prompt):
             messages=[
                 {
                     "role": "user",
-                    "content": prompt+batch,
+                    "content": prompt + batch if prompt else batch,
                 }
             ],
             model="llama-3.2-1b-preview",  # Replace with Groq-supported model

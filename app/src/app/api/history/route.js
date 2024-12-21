@@ -53,7 +53,7 @@ export async function POST(req) {
         content: generatedOutput,
         createdByUserId: userId,
       },
-    })
+    });
 
     // Save the result to the database
     const history = await prisma.userHistory.create({
@@ -75,7 +75,7 @@ export async function POST(req) {
   }
 }
 
-
+// If using dynamic routing for the route: /api/history/[id]
 export async function GET(req) {
   try {
     // Get the token from cookies
@@ -90,13 +90,48 @@ export async function GET(req) {
 
     // Verify the token
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    console.log(decoded);
     const userId = decoded.id;
 
-    // Fetch user's history from the database
+    // Get the ID from the dynamic route (e.g., /api/history/123)
+    console.log("Url:", req.nextUrl);
+    console.log("Pathname:", req.nextUrl.pathname);
+    
+    // Extracting id from the pathname
+    let id = req.nextUrl.pathname.split('/').pop(); // Assuming the URL is /api/history/[id]
+    console.log("Extracted ID:", id);
+    
+    // Check if the id is a valid number
+    let validId = isNaN(id) ? undefined : parseInt(id, 10); // If id is not a number, set it to undefined
+    console.log("Validated ID:", validId);
+
+    if (validId) {
+      // Fetch a specific user's history from the database by ID
+      const history = await prisma.userHistory.findUnique({
+        where: { id: validId, createdByUserId: userId },
+      });
+
+      if (!history) {
+        return NextResponse.json(
+          { status: 404, error: 'History not found' },
+          { status: 404 }
+        );
+      }
+
+      // Convert stored string back to JSON
+      const formattedHistory = {
+        id: history.id,
+        promptText: history.promptText,
+        generatedOutput: JSON.parse(history.generatedOutput),
+        createdAt: history.createdAt,
+      };
+
+      return NextResponse.json({ status: 200, history: formattedHistory });
+    }
+
+    // If no id is provided, fetch all histories
     const histories = await prisma.userHistory.findMany({
       where: { createdByUserId: userId },
-      orderBy: { createdAt: 'desc' }, // Optional: Order by most recent
+      orderBy: { createdAt: 'desc' },
     });
 
     // Convert stored string back to JSON
