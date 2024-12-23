@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useContext, useEffect } from "react";
 import { useRouter } from "next/navigation";  // Import useRouter for navigation
-import { ThemeContext } from "@/app/dashboard/views/layout"; 
+import { ThemeContext } from "@/app/dashboard/views/layout";
 import toast from "react-hot-toast";
 
 const Sidebar = () => {
@@ -46,6 +46,8 @@ const Sidebar = () => {
 
   return (
     <>
+    <div className="">
+
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="fixed top-4 left-4 p-2 rounded-md bg-gray-800 text-white z-20 lg:hidden"
@@ -69,10 +71,10 @@ const Sidebar = () => {
 
       <aside
         className={`fixed top-0 left-0 h-screen transform ${isOpen ? "translate-x-0" : "-translate-x-full"
-          } lg:translate-x-0 lg:static bg-gray-800 text-white w-80 shadow-lg transition-transform duration-300 z-20 overflow-y-auto no-scrollbar`}
+          } lg:translate-x-0 lg:static bg-gray-800 text-white w-80 shadow-lg transition-transform duration-300 z-20`}
         style={{ backgroundColor: theme.background }}
       >
-        <div className="flex flex-col items-center p-6">
+        <div className="flex flex-col items-center p-6 ">
           <img
             src="https://via.placeholder.com/100"
             alt="User Avatar"
@@ -118,6 +120,7 @@ const Sidebar = () => {
           onClick={() => setIsOpen(false)}
         ></div>
       )}
+    </div>
     </>
   );
 };
