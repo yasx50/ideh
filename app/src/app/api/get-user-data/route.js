@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import jwt from "jsonwebtoken";
+// import { PrismaClient } from "@prisma/client";
 
+// const prisma = new PrismaClient();
 export async function GET(req) {
     try {
         const token = req.cookies.get("token")?.value; // Get the token from cookies
@@ -14,7 +16,12 @@ export async function GET(req) {
         if (!decoded || !decoded.id) {
             return NextResponse.json({ error: "Invalid token" }, { status: 401 });
         }
-
+        
+        // const user = await prisma.user.findUnique({
+        //     where: {userId:decoded.id}
+        // })
+        // console.log(user.name);
+        
         return NextResponse.json({ userId: decoded.id }, {token : token});
     } catch (error) {
         console.error("Error validating token:", error);
