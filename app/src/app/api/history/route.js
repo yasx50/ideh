@@ -22,8 +22,8 @@ export async function POST(req) {
     const userId = decoded.id;
 
     // Parse the request body
-    const { url } = await req.json();
-
+    const { websiteUrl, prompt } = await req.json();
+    const url = websiteUrl;
     if (!url) {
       return NextResponse.json(
         { status: 400, error: 'Bad Request: URL is required' },
@@ -35,7 +35,7 @@ export async function POST(req) {
     const aiResponse = await fetch(process.env.AI_SERVER_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ url }),
+      body: JSON.stringify({ url, prompt }),
     });
 
     if (!aiResponse.ok) {
@@ -94,11 +94,11 @@ export async function GET(req) {
     // Get the ID from the dynamic route (e.g., /api/history/123)
     console.log("Url:", req.nextUrl);
     console.log("Pathname:", req.nextUrl.pathname);
-    
+
     // Extracting id from the pathname
     let id = req.nextUrl.pathname.split('/').pop(); // Assuming the URL is /api/history/[id]
     console.log("Extracted ID:", id);
-    
+
     // Check if the id is a valid number
     let validId = isNaN(id) ? undefined : parseInt(id, 10); // If id is not a number, set it to undefined
     console.log("Validated ID:", validId);
