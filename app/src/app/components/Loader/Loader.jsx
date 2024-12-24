@@ -23,7 +23,7 @@ const StyledWrapper = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100vw;
+  width: auto;
   background-color: #f0f0f0; /* Optional background color for better visibility */
 
   .cube-loader {
