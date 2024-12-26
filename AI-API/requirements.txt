@@ -5,3 +5,4 @@ langchain==0.3.7
 langchain_community==0.3.7
 Requests==2.32.3
 huggingface_hub
+gunicorn

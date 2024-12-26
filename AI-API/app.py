@@ -17,7 +17,7 @@ cors = CORS(app) # allow CORS for all domains on all routes.
 huggingface_llm = HuggingFaceHub(
     repo_id="gpt2",  # Replace with your preferred Hugging Face model
     model_kwargs={"temperature": 0.7, "max_length": 256},
-    huggingfacehub_api_token='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'
+    huggingfacehub_api_token=''
 )
 
 # Groq client setup
