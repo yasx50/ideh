@@ -17,7 +17,7 @@ cors = CORS(app) # allow CORS for all domains on all routes.
 huggingface_llm = HuggingFaceHub(
     repo_id="gpt2",  # Replace with your preferred Hugging Face model
     model_kwargs={"temperature": 0.7, "max_length": 256},
-    huggingfacehub_api_token=''
+    huggingfacehub_api_token='API_TOKEN'
 )
 
 # Groq client setup
@@ -145,6 +145,9 @@ def process_url():
         print(f"[ERROR] {str(e)}")
         return jsonify({"error": str(e)}), 500
 
+@app.route('/', methods=['GET'])
+def index():
+    return jsonify({"status": "Server is Running"})
 
 # Run the app
 if __name__ == '__main__':
