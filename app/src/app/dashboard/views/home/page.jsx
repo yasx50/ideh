@@ -87,7 +87,7 @@ const UserHomePage = () => {
 
           <section className="mb-8">
             <p className="text-lg mb-4" style={{ color: theme.text }}>
-              We're thrilled to present our Beta v1—a cutting-edge tool for web scraping. This version is designed to help you collect the data you need seamlessly and efficiently.
+              We are thrilled to present our Beta v1—a cutting-edge tool for web scraping. This version is designed to help you collect the data you need seamlessly and efficiently.
             </p>
             <p className="text-lg" style={{ color: theme.text }}>
               Start exploring today, and help us make this the best tool for data extraction!
