@@ -38,7 +38,7 @@ function Login() {
       });
 
       const data = await response.json();
-      setLoading(false);  // Stop loading
+      // setLoading(false);  // Stop loading
 
       if (response.ok) {
         toast.success(data.message || "Success!");

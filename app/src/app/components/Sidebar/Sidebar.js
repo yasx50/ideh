@@ -1,6 +1,6 @@
-"use client"
+"use client";
 import React, { useState, useContext, useEffect } from "react";
-import { useRouter } from "next/navigation";  // Import useRouter for navigation
+import { useRouter } from "next/navigation";
 import { ThemeContext } from "@/app/dashboard/views/layout";
 import toast from "react-hot-toast";
 
@@ -8,8 +8,8 @@ const Sidebar = () => {
   const { darkMode, toggleTheme } = useContext(ThemeContext);
   const [isOpen, setIsOpen] = useState(false);
   const [history, setHistory] = useState([]);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false); // State for dropdown
-  const router = useRouter(); // Initialize router
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const router = useRouter();
 
   const theme = {
     background: darkMode ? "#121212" : "#E0E1DD",
@@ -22,7 +22,7 @@ const Sidebar = () => {
   useEffect(() => {
     const fetchHistory = async () => {
       try {
-        const url = "/api/history"; // You can adjust the URL based on whether you're fetching specific histories or all
+        const url = "/api/history";
         const response = await fetch(url, { method: "GET" });
 
         if (!response.ok) {
@@ -30,7 +30,7 @@ const Sidebar = () => {
         }
 
         const data = await response.json();
-        setHistory(data.histories); // Assuming the response structure has 'histories'
+        setHistory(data.histories);
       } catch (error) {
         console.error("Error fetching user history:", error);
         toast.error("Error Fetching User History");
@@ -41,21 +41,19 @@ const Sidebar = () => {
   }, []);
 
   const handleHistoryClick = (id) => {
-    router.push(`/dashboard/views/history/${id}`); // Navigate to the specific history page
+    router.push(`/dashboard/views/history/${id}`);
   };
 
   const handleLogout = async () => {
     try {
-      const response = await fetch("/api/auth/logout", {
-        method: "GET",
-      });
+      const response = await fetch("/api/auth/logout", { method: "GET" });
 
       if (!response.ok) {
         throw new Error("Logout failed");
       }
 
       toast.success("Logged out successfully");
-      router.push("/"); // Navigate to the homepage
+      router.push("/");
     } catch (error) {
       console.error("Error during logout:", error);
       toast.error("Logout failed");
@@ -87,10 +85,25 @@ const Sidebar = () => {
         </button>
 
         <aside
-          className={`fixed top-0 left-0 h-screen transform ${isOpen ? "translate-x-0" : "-translate-x-full"
-            } lg:translate-x-0 lg:static bg-gray-800 text-white w-80 shadow-lg transition-transform duration-300 z-20`}
+          className={`fixed top-0 left-0 h-screen transform ${
+            isOpen ? "translate-x-0" : "-translate-x-full"
+          } lg:translate-x-0 lg:static bg-gray-800 text-white w-80 shadow-lg transition-transform duration-300 z-20`}
           style={{ backgroundColor: theme.background }}
         >
+          <div className="relative flex justify-between items-center p-6">
+            {/* Add the home button */}
+            <button
+              onClick={() => router.push("/dashboard/views/home")}
+              className="absolute top-4 right-4 text-white bg-blue-500 p-2 rounded-md hover:bg-blue-600 transition-all"
+              style={{
+                color: theme.text,
+                backgroundColor: theme.accent,
+              }}
+            >
+              Home
+            </button>
+          </div>
+
           <div className="flex flex-col items-center p-6">
             <img
               src="https://via.placeholder.com/100"
@@ -106,7 +119,9 @@ const Sidebar = () => {
               >
                 User123
                 <svg
-                  className={`w-5 h-5 ml-2 transition-transform ${isDropdownOpen ? "rotate-180" : "rotate-0"}`}
+                  className={`w-5 h-5 ml-2 transition-transform ${
+                    isDropdownOpen ? "rotate-180" : "rotate-0"
+                  }`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -137,8 +152,8 @@ const Sidebar = () => {
                 History
               </h3>
               <ul>
-                {history.length > 0
-                  ? history.map((item, index) => (
+                {history.length > 0 ? (
+                  history.map((item, index) => (
                     <li
                       key={index}
                       onClick={() => handleHistoryClick(item.id)}
@@ -149,10 +164,13 @@ const Sidebar = () => {
                         border: `1px solid ${theme.border}`,
                       }}
                     >
-                      {item.generatedOutput?.final_result?.substring(19, 40) || "No output available"}
+                      {item.generatedOutput?.final_result?.substring(19, 40) ||
+                        "No output available"}
                     </li>
                   ))
-                  : <li style={{ color: theme.text }}>No history available</li>}
+                ) : (
+                  <li style={{ color: theme.text }}>No history available</li>
+                )}
               </ul>
             </div>
           </div>
