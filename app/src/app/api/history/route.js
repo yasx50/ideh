@@ -2,11 +2,13 @@ import jwt from 'jsonwebtoken';
 import { PrismaClient } from '@prisma/client';
 import { NextResponse } from 'next/server';
 import fetch from 'node-fetch';
+import { progress } from 'framer-motion';
 
 const prisma = new PrismaClient();
 
 export async function POST(req) {
   try {
+    // console.log("API key",process.env.AI_SERVER_URL);
     // Get the token from cookies
     const token = req.cookies.get('token')?.value;
 
@@ -32,7 +34,8 @@ export async function POST(req) {
     }
 
     // Fetch response from the external AI service
-    const aiResponse = await fetch(process.env.AI_SERVER_URL, {
+    
+    const aiResponse = await fetch("https://ai-api-peht.onrender.com/process-url", {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ url, prompt }),
