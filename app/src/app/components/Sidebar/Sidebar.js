@@ -62,7 +62,7 @@ const Sidebar = () => {
 
   return (
     <>
-      <div className="">
+      <div>
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="fixed top-4 left-4 p-2 rounded-md bg-gray-800 text-white z-20 lg:hidden"
@@ -85,13 +85,12 @@ const Sidebar = () => {
         </button>
 
         <aside
-          className={`fixed top-0 left-0 h-screen transform ${
+          className={`sticky fixed top-0 left-0 h-[100dvh] transform ${
             isOpen ? "translate-x-0" : "-translate-x-full"
-          } lg:translate-x-0 lg:static bg-gray-800 text-white w-80 shadow-lg transition-transform duration-300 z-20`}
+          } lg:translate-x-0 lg:static bg-gray-800 text-white w-96 shadow-lg transition-transform duration-300 z-20 h-auto`}
           style={{ backgroundColor: theme.background }}
         >
           <div className="relative flex justify-between items-center p-6">
-            {/* Add the home button */}
             <button
               onClick={() => router.push("/dashboard/views/home")}
               className="absolute top-4 right-4 text-white bg-blue-500 p-2 rounded-md hover:bg-blue-600 transition-all"
@@ -151,27 +150,34 @@ const Sidebar = () => {
               <h3 className="text-lg font-medium mb-3" style={{ color: theme.text }}>
                 History
               </h3>
-              <ul>
+              <div
+                className="sidebar-history overflow-y-auto space-y-2"
+                style={{
+                  maxHeight: "calc(100vh - 200px)",
+                  scrollbarWidth: "thin",
+                  scrollbarColor: `${theme.accent} transparent`,
+                }}
+              >
                 {history.length > 0 ? (
                   history.map((item, index) => (
-                    <li
+                    <button
                       key={index}
                       onClick={() => handleHistoryClick(item.id)}
-                      className="mb-2 rounded-md p-2 transition-all hover:bg-opacity-75 flex items-center justify-center"
+                      className="block w-full p-3 text-left rounded-md hover:bg-opacity-75"
                       style={{
                         color: theme.text,
                         backgroundColor: theme.inputBg,
                         border: `1px solid ${theme.border}`,
                       }}
                     >
-                      {item.generatedOutput?.final_result?.substring(19, 40) ||
+                      {item.generatedOutput?.final_result?.substring(19, 50) ||
                         "No output available"}
-                    </li>
+                    </button>
                   ))
                 ) : (
-                  <li style={{ color: theme.text }}>No history available</li>
+                  <p className="text-sm text-gray-500">No history available</p>
                 )}
-              </ul>
+              </div>
             </div>
           </div>
         </aside>
