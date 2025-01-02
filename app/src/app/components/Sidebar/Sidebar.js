@@ -85,10 +85,9 @@ const Sidebar = () => {
         </button>
 
         <aside
-          className={`sticky fixed top-0 left-0 h-[100dvh] transform ${
-            isOpen ? "translate-x-0" : "-translate-x-full"
-          } lg:translate-x-0 lg:static bg-gray-800 text-white w-96 shadow-lg transition-transform duration-300 z-20 h-auto`}
-          style={{ backgroundColor: theme.background }}
+          className={`fixed top-0 left-0 h-[100dvh] transform ${isOpen ? "translate-x-0" : "-translate-x-full"
+            } lg:translate-x-0 lg:static bg-gray-800 text-white w-96 shadow-lg transition-transform duration-300 z-20 h-auto`}
+          style={{ backgroundColor: theme.background, position: "sticky" }}
         >
           <div className="relative flex justify-between items-center p-6">
             <button
@@ -118,9 +117,8 @@ const Sidebar = () => {
               >
                 User123
                 <svg
-                  className={`w-5 h-5 ml-2 transition-transform ${
-                    isDropdownOpen ? "rotate-180" : "rotate-0"
-                  }`}
+                  className={`w-5 h-5 ml-2 transition-transform ${isDropdownOpen ? "rotate-180" : "rotate-0"
+                    }`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
