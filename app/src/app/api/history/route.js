@@ -5,7 +5,7 @@ import fetch from 'node-fetch';
 import { progress } from 'framer-motion';
 
 const prisma = new PrismaClient();
-
+export const maxDuration = 60; 
 export async function POST(req) {
   try {
     // console.log("API key",process.env.AI_SERVER_URL);
@@ -34,8 +34,8 @@ export async function POST(req) {
     }
 
     // Fetch response from the external AI service
-    
-    const aiResponse = await fetch("https://ai-api-peht.onrender.com/process-url", {
+    // https://ai-api-peht.onrender.com/process-url
+    const aiResponse = await fetch("http://127.0.0.1:5000/process-url", {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ url, prompt }),
