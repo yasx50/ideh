@@ -35,7 +35,7 @@ export async function POST(req) {
 
     // Fetch response from the external AI service
     // https://ai-api-peht.onrender.com/process-url
-    const aiResponse = await fetch("http://127.0.0.1:5000/process-url", {
+    const aiResponse = await fetch("https://ai-api-peht.onrender.com/process-url", {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ url, prompt }),
